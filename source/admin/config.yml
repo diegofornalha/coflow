@@ -70,3 +70,17 @@ collections:
               - {label: Label, name: label, widget: string}
               - {label: Path, name: path, widget: string}
       - file: data/settings/units.yml
+        label: Units
+        name: units
+        fields:
+          - label: Currency
+            name: currency
+            widget: select
+            options: ['€', '$', '£']
+            default: '€'
+
+          - label: Weight
+            name: weight
+            widget: select
+            options: ['kg', ' st', ' lb']
+            default: 'kg'
