@@ -1,7 +1,7 @@
 nav_items:
   - label: Inicio
     path: /
-  - label: Produtos
+  - label: Formação Técnica
     path: /products/
   - label: Novidades
     path: /news
