@@ -1,6 +1,6 @@
 ---
 title: No seu Flow
-date: '2018-08-16T12:01+02:00'
+date: 2020-02-25T10:01:00.000Z
 description: A melhor metodologia para o seu negócio.
 image: /images/uploads/news_item-02.jpg
 ---
