@@ -4,7 +4,9 @@ date: 2020-02-25T13:40:57.280Z
 description: A melhor metodologia para o seu negócio.
 image: /images/uploads/news_item-02.jpg
 ---
-## <div style="text-align: center;"> *Somos especialistas em marketing* </div>
+![Homem em cadeira de rodas em frente a uma mesa com um notebook aberto](https://ci3.googleusercontent.com/proxy/ILzBaaDeSDLQc2PdVgU32c_7i22DVk94WPioZeljbZIu580Y45Wbwx2jBGY96N1bVoPoCR2o9XUfzAhTaFuZKCOcbGWkXRjSGqFARFYLneY=s0-d-e1-ft#https://services.google.com/fh/files/emails/wheelchairman.gif)
+
+## Somos especialistas em marketing
 
 Temos um profundo conhecimento em Ads com as mais novas certificações. 
 
