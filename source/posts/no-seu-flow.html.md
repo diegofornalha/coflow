@@ -4,11 +4,7 @@ date: 2020-02-25T13:40:57.280Z
 description: A melhor metodologia para o seu negócio.
 image: /images/uploads/news_item-02.jpg
 ---
-![](/images/uploads/unnamed.gif)
-
-
-
-Somos especialistas em marketing
+## Somos especialistas em marketing
 
 Temos um profundo conhecimento em Ads com as mais novas certificações. 
 
