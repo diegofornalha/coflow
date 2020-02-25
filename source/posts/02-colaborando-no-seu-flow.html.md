@@ -2,7 +2,7 @@
 title: 02 - Colaborando no seu Flow
 date: 2020-02-25T15:16:39.971Z
 description: A melhor metodologia para o seu negócio.
-image: /images/uploads/news_item-02.jpg
+image: /images/uploads/news_item-01.jpg
 ---
 ## Somos especialistas em marketing
 
