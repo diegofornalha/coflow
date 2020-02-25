@@ -5,3 +5,5 @@ nav_items:
     path: /products/
   - label: Novidades
     path: /news
+  - label: Diego@coflow.cf
+    path: /contato
