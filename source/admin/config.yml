@@ -82,4 +82,3 @@ collections:
             name: "language"
             widget: "string"
             hint: "Idioma do conteúdo"
-
