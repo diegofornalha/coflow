@@ -4,10 +4,10 @@ backend:
 media_folder: source/images/uploads
 public_folder: /images/uploads
 
-#publish_mode: editorial_workflow #optional, enables publishing workflow
+#publish_mode: editorial_workflow #optional, permite publicar o fluxo de trabalho
 
 collections:
-  #yaml middleman data example
+  #exemplo de dados #yaml site
   - name: product
     label: Product
     format: yml
@@ -21,7 +21,7 @@ collections:
       - {label: Image, name: image, widget: image, required: true}
       - {label: Body, name: body, widget: markdown}
 
-#markdown middleman blog example
+#markdown site blog exemplo
   - name: blog
     label: Blog
     folder: source/posts/
@@ -82,12 +82,3 @@ collections:
             widget: "string"
             hint: "Idioma do conteúdo"
 
-#vou tentar adicionar página de author
-
-    - label: "Author"
-        name: "author"
-        widget: "relation"
-        collection: "authors"
-        displayFields: [display_name]
-        searchFields: [display_name]
-        valueField: "name"
