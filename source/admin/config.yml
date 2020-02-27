@@ -83,11 +83,3 @@ collections:
             hint: "Idioma do conteúdo"
 
 #vou tentar adicionar página de author
-
-    - label: "Author"
-        name: "author"
-        widget: "relation"
-        collection: "authors"
-        displayFields: [display_name]
-        searchFields: [display_name]
-        valueField: "name"
