@@ -4,10 +4,10 @@ meta content="ie=edge" http-equiv="x-ua-compatible"
 meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"
 
 // Set dynamic and default meta
-- title = current_page.data.title || "Kaldi - Middleman + Netlify CMS Example"
-- description = current_page.data.description || "A simple example to get started with Middleman and Netlify CMS"
-//Change this to your domain
-- url = "https://brave-hypatia-0b12fd.netlify.com"
+- title = current_page.data.title || "Coflow - Site + Netlify CMS"
+- description = current_page.data.description || "Um exemplo simples de introdução ao Middleman e Netlify CMS"
+//Mude isso para o seu domínio
+- url = "https://blog-cf.netlify.com"
 - image = current_page.data.image || "/images/uploads/homepage-hero.jpg"
 
 title =title
@@ -20,7 +20,7 @@ meta property="og:image" content=(url + image_path(image))
 meta property="og:url" content=(url + current_page.url)
 meta property="og:type" content="website"
 
-meta name="linkedin:card" content="summary_large_image"
-meta name="linkedin:title" content=title
-meta name="linkedin:description" content=description
-meta name="linkedin:image" content=(url + image_path(image))
+meta name="twitter:card" content="summary_large_image"
+meta name="twitter:title" content=title
+meta name="twitter:description" content=description
+meta name="twitter:image" content=(url + image_path(image))
