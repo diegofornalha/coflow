@@ -26,7 +26,7 @@ Depois de clicar nesse botão, você se autentica no GitHub e escolhe um nome de
 
 Instruções de verificação do [guia de instalação do intermediário](https://middlemanapp.com/basics/install/) 
 ```
-$ git clone https://github.com/tomrutgers/middleman-starter-netlify-cms
+$ git clone https://github.com/diegofornalha/middleman-starter-netlify-cms
 $ cd middleman-starter-netlify-cms
 $ bundle install
 $ middleman server
