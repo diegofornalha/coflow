@@ -18,7 +18,7 @@ que é construído com [Middleman](https://www.middlemanapp.com/) e [Netlify CMS
 
 O Netlify CMS pode ser executado em qualquer ambiente web front-end, mas a maneira mais rápida de testá-lo é executando-o em um site inicial pré-configurado com o Netlify. Use o botão de implantação abaixo para copiar o repositório para sua conta.
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/tomrutgers/middleman-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/diegofornalha/middleman-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 Depois de clicar nesse botão, você se autentica no GitHub e escolhe um nome de repositório. O Netlify criará automaticamente um repositório na sua conta do GitHub com uma cópia dos arquivos do modelo. Em seguida, ele criará e implantará o novo site no Netlify, levando você ao painel do site quando a compilação estiver concluída. Para acessar o CMS, você precisa configurar [identidade do Netlify](https://www.netlify.com/docs/identity/) serviço para autorizar os usuários a efetuar login no CMS. Certifique-se de ativar o [Git Gateway](https://www.netlify.com/docs/git-gateway/).
 
