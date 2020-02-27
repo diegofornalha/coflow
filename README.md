@@ -12,7 +12,7 @@ que é construído com [Middleman](https://www.middlemanapp.com/) e [Netlify CMS
 
 **Middleman** é um gerador de site estático usando todos os atalhos e ferramentas no desenvolvimento moderno da web. Verificação de saída [middlemanapp.com](http://middlemanapp.com/) para tutoriais detalhados, incluindo um [guia de introdução](http://middlemanapp.com/basics/getting-started/).
 
-** Netlify CMS ** é um CMS para geradores de sites estáticos. Ofereça aos usuários não técnicos uma maneira simples de editar e adicionar conteúdo a qualquer site criado com um gerador de site estático.
+**Netlify CMS** é um CMS para geradores de sites estáticos. Ofereça aos usuários não técnicos uma maneira simples de editar e adicionar conteúdo a qualquer site criado com um gerador de site estático.
 
 ## Começando
 
