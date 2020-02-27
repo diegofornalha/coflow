@@ -83,3 +83,24 @@ collections:
             default: ''
 
             #vou tentar adicionar novas funcionalidades
+
+      - label: "Advanced"
+        name: "advanced"
+        file: "src/yml/advanced.yml"
+        fields:
+          - label: "Base URL"
+            name: "baseurl"
+            widget: "string"
+            hint: "Subdominio. Exemplo: /blog"
+          - label: "URL"
+            name: "url"
+            widget: "string"
+            hint: "Site atual. Exemplo: https://coflow.cf"
+          - label: "Google Analytics ID"
+            name: "google_analytics"
+            widget: "string"
+            required: false
+          - label: "Language"
+            name: "language"
+            widget: "string"
+            hint: "Content language, ex: pt-BR, en, fr"
