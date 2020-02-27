@@ -22,6 +22,7 @@ collections:
       - {label: Body, name: body, widget: markdown}
 
 #markdown site blog exemplo
+
   - name: blog
     label: Blog
     folder: source/posts/
