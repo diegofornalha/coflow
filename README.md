@@ -3,28 +3,28 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6c3d057-a31f-4741-bed1-6d454b6be9ca/deploy-status)](https://app.netlify.com/sites/middleman-netlify-cms/deploys)
 
 
-Este repositório contém um **[example website](https://middleman-netlify-cms.netlify.com/)** 
+Este repositório contém um **[exemplo](https://blog.42-rio.cf/)** 
 que é construído com [Middleman](https://www.middlemanapp.com/) e [Netlify CMS](https://www.netlifycms.org). 
 
-*Projetado e desenvolvido por [Tom Rutgers](https://www.tomrutgers.nl/)*
+*Projetado e desenvolvido por [DiegoFornalha](https://www.42-rio.cf/)*
 
-## Sobre a arquitetura
+## 	Sobre a arquitetura
 
-**Middleman** is a static site generator using all the shortcuts and tools in modern web development. Check out [middlemanapp.com](http://middlemanapp.com/) for detailed tutorials, including a [getting started guide](http://middlemanapp.com/basics/getting-started/).
+**Middleman** é um gerador de site estático usando todos os atalhos e ferramentas no desenvolvimento moderno da web. Verificação de saída [middlemanapp.com](http://middlemanapp.com/) para tutoriais detalhados, incluindo um [guia de introdução](http://middlemanapp.com/basics/getting-started/).
 
-**Netlify CMS** is a CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator. 
+** Netlify CMS ** é um CMS para geradores de sites estáticos. Ofereça aos usuários não técnicos uma maneira simples de editar e adicionar conteúdo a qualquer site criado com um gerador de site estático.
 
-## Getting Started
+## Começando
 
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the deploy button below to copy the repository to your account.
+O Netlify CMS pode ser executado em qualquer ambiente web front-end, mas a maneira mais rápida de testá-lo é executando-o em um site inicial pré-configurado com o Netlify. Use o botão de implantação abaixo para copiar o repositório para sua conta.
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/tomrutgers/middleman-starter-netlify-cms&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. To access the CMS, you’ll need to set up [Netlify identity](https://www.netlify.com/docs/identity/) service to authorize users to log in to the CMS. Make sure to enable [Git Gateway](https://www.netlify.com/docs/git-gateway/).
+Depois de clicar nesse botão, você se autentica no GitHub e escolhe um nome de repositório. O Netlify criará automaticamente um repositório na sua conta do GitHub com uma cópia dos arquivos do modelo. Em seguida, ele criará e implantará o novo site no Netlify, levando você ao painel do site quando a compilação estiver concluída. Para acessar o CMS, você precisa configurar [identidade do Netlify](https://www.netlify.com/docs/identity/) serviço para autorizar os usuários a efetuar login no CMS. Certifique-se de ativar o [Git Gateway](https://www.netlify.com/docs/git-gateway/).
 
-### Make it work on your machine
+### Faça com que funcione na sua máquina
 
-Be sure to check out the [middleman installation guide](https://middlemanapp.com/basics/install/) 
+Instruções de verificação do [guia de instalação do intermediário](https://middlemanapp.com/basics/install/) 
 ```
 $ git clone https://github.com/tomrutgers/middleman-starter-netlify-cms
 $ cd middleman-starter-netlify-cms
@@ -32,8 +32,8 @@ $ bundle install
 $ middleman server
 ```
 
-### Setting up the CMS
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+### Configurando o CMS
+Siga o [Guia de início rápido do Netlify CMS](https://www.netlifycms.org/docs/quick-start/#authentication) para configurar autenticação e hospedagem.
 
-### Trouble?
-[![Gitter](https://badges.gitter.im/netlify/netlify.svg)](https://gitter.im/netlify/NetlifyCMS)
+### Problema?
+[![Gitter](https://badges.gitter.im/netlify/netlify.svg)](https://gitter.im/netlify/home)
