@@ -7,3 +7,5 @@ nav_items:
     path: /news
   - label: Diego@coflow.cf
     path: 'https://www.linkedin.com/in/diegofornalha/'
+  - label: login
+    path: 'https://blog.42-rio.cf/admin'
