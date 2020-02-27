@@ -71,7 +71,7 @@ collections:
 
       - label: "Advanced"
         name: "advanced"
-        file: "src/yml/advanced.yml"
+        file: "data/settings/advanced.yml"
         fields:
           - label: "Google Analytics ID"
             name: "google_analytics"
