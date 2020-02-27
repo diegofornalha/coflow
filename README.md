@@ -6,7 +6,7 @@
 Este repositório contém um **[exemplo](https://blog.42-rio.cf/)** 
 que é construído com [Middleman](https://www.middlemanapp.com/) e [Netlify CMS](https://www.netlifycms.org). 
 
-*Projetado e desenvolvido por [DiegoFornalha](https://www.42-rio.cf/)*
+*Template modificado por [DiegoFornalha](https://www.42-rio.cf/)*
 
 ## 	Sobre a arquitetura
 
