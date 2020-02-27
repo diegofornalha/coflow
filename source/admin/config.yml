@@ -80,4 +80,4 @@ collections:
           - label: "Language"
             name: "language"
             widget: "string"
-            hint: "Content language, ex: pt-BR, en, fr"
+            hint: "Idioma do conteúdo"
