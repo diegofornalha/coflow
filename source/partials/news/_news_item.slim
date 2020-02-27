@@ -6,7 +6,7 @@ article.news-item
           = image_tag article.data.image
 
           .date
-            //make sure the article date is actually a date
+            //verifique se a data do artigo é realmente uma data
             - date = Date.parse article.data.date.to_s
             span = date.strftime("%d-%m-%Y")
 
@@ -17,4 +17,4 @@ article.news-item
         
         p = article.data.description
 
-        = link_to 'Read the story', article, class: 'cta'
+        = link_to 'Saiba Mais', article, class: 'cta'
