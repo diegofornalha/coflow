@@ -1,7 +1,7 @@
 ---
-title: Assistente Coflow
+title: JANEIRO
 date: 2020-02-27T05:42:03.726Z
-description: Mais informações sobre assistente
+description: Mês passado!
 image: /images/uploads/news_item-01.jpg
 ---
-Um texto falando sobre a assistente 
+Novas atualizações serão postadas todos os meses.
