@@ -1,12 +1,14 @@
-# Middleman + Netlify CMS Starter
+# Coflow + Netlify CMS Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6c3d057-a31f-4741-bed1-6d454b6be9ca/deploy-status)](https://app.netlify.com/sites/middleman-netlify-cms/deploys)
 
-This repo contains an **[example website](https://middleman-netlify-cms.netlify.com/)** that is built with [Middleman](https://www.middlemanapp.com/) and [Netlify CMS](https://www.netlifycms.org). 
 
-*Designed and developed by [Tom Rutgers](https://www.tomrutgers.nl/)*
+Este repositório contém um **[example website](https://middleman-netlify-cms.netlify.com/)** 
+que é construído com [Middleman](https://www.middlemanapp.com/) e [Netlify CMS](https://www.netlifycms.org). 
 
-## About the architecture
+*Projetado e desenvolvido por [Tom Rutgers](https://www.tomrutgers.nl/)*
+
+## Sobre a arquitetura
 
 **Middleman** is a static site generator using all the shortcuts and tools in modern web development. Check out [middlemanapp.com](http://middlemanapp.com/) for detailed tutorials, including a [getting started guide](http://middlemanapp.com/basics/getting-started/).
 
