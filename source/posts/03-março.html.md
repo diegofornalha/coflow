@@ -11,13 +11,7 @@ Nossas habilidades e conhecimentos são capazes de combinar diferentes áreas de
 
 Temos certificações e cursos atualizados sobre os principais tipos de campanha, para que você possa ter mais resultados nas áreas a seguir:
 
-
-<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; color: #444444; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 21px; line-height: 21px; margin: 0px auto; width: 100%px;">
-
-
-<td class="m_9124658787106023530outer_td" style="background-color: #f8f9fa; border: 0px solid rgb(255, 255, 255); color: #414141; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; padding: 15px 10px 34px 9px;"><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; line-height: 21px; width: 608px;">
-
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; width: 100%px;">
+<table border="0">
 
 
 <td align="left" class="m_9124658787106023530para_one m_9124658787106023530padding_left_mob_bull m_9124658787106023530para_one_mb" dir="ltr" style=" font-family: Roboto, Arial, sans-serif; font-size: 14px; line-height: 24px; margin: 0px; padding: 21px 5px 0px; " >
