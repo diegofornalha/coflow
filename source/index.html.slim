@@ -30,6 +30,6 @@ section.homepage-news.news
     h2
       | Novidades
     .news-items
-      //obtenha as duas primeiras postagens mais recentes
+      //obtenha as três primeiras postagens mais recentes
       - blog.articles.first(3).each do | article |
         = partial 'partials/news/news_item', locals: {article: article}

@@ -33,15 +33,17 @@ activate :blog do |blog|
   
 end
 
-# With alternative layout
+# Com layout alternativo
 # page '/path/to/file.html', layout: 'other_layout'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
-# proxy product.yml files to product.html 
+# arquivos proxy product.yml para product.html
+
 data.products.each do |_filename, product|
-  # product is an array: [filename, {data}]
+  # produto é uma matriz: [filename, {data}]
+
   proxy "/product/#{product[:title].parameterize}/index.html", "product.html", 
   locals: {product: product}, 
   layout: 'product-detail',
@@ -80,10 +82,10 @@ configure :build do
   # Minify css on build
   activate :minify_css
 
-  # Minify Javascript on build
+  # Minimize o Javascript na compilação
   activate :minify_javascript, ignore: "**/admin/**", compressor: ::Uglifier.new(mangle: true, compress: { drop_console: true }, output: {comments: :none})
 
-  # Use Gzip
+  # Use o Gzip
   activate :gzip
 
   #Utilizar hashes de ativos para usar em cache

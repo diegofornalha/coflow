@@ -1,12 +1,12 @@
 section.products
   .container
     h2
-      | Products
+      | Equipe Coflow
     .row
-      //product is structured: ['filename', 'data']
-      //sort by newest product
+      //produto está estruturado:['filename', 'data']
+      //ordenar por produto mais recente
       - data.products.sort {|a,b| b[1].date <=> a[1].date}.each do | product |
 
-        //to get the actual data:
+        //para obter os dados reais:
         = partial 'partials/products/product', locals: {product: product[1]}
 
