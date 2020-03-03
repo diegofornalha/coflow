@@ -38,5 +38,3 @@ Exiba seus produtos para os milhões de compradores on-line que estão pesquisan
 </tbody></table>
 </td></tr>
 </tbody></table>
-</td></tr>
-</tbody></table>
