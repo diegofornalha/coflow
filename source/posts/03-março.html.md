@@ -11,6 +11,22 @@ Nossas habilidades e conhecimentos são capazes de combinar diferentes áreas de
 
 Temos certificações e cursos atualizados sobre os principais tipos de campanha, para que você possa ter mais resultados nas áreas a seguir:
 
+
+
+01 - <a href="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Pesquisa" class="CToWUd" height="50" src="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" style="border-width: 0px;" width="50" /></a> <span style="font-weight: bold;">Pesquisa:</span> Aplicamos os fundamentos, como palavras-chave e estratégias de lances, para otimizar as campanhas.
+
+
+
+02 -<a href="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Display" class="CToWUd" height="50" src="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" style="border-width: 0px;" width="50" /></a> <span style="font-weight: bold;">Pesquisa:</span> Aplicamos os fundamentos, como palavras-chave e estratégias de lances, para otimizar as campanhas.
+
+
+
+<a href="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Pesquisa" class="CToWUd" height="50" src="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" style="border-width: 0px;" width="50" /></a> <span style="font-weight: bold;">Pesquisa:</span> Aplicamos os fundamentos, como palavras-chave e estratégias de lances, para otimizar as campanhas.
+
+
+
+<a href="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Pesquisa" class="CToWUd" height="50" src="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" style="border-width: 0px;" width="50" /></a> <span style="font-weight: bold;">Pesquisa:</span> Aplicamos os fundamentos, como palavras-chave e estratégias de lances, para otimizar as campanhas.
+
 <table border="0">
 <td align="left"  style="padding: 30px 5px px; " >
 
