@@ -4,17 +4,14 @@ date: 2020-03-01T18:33:00.000Z
 description: MARÇO
 image: /images/uploads/news_item-01.png
 ---
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; color: #414141; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; line-height: 21px; max-width: 600px; width: 100%px;"><tbody>
-<tr class="m_9124658787106023530dekstop_only" style="border: 0px;"><td align="left" class="m_9124658787106023530dekstop_only" dir="ltr" style="color: #202124; direction: ltr; font-family: &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-size: 34px; line-height: 41px; margin: 0px; padding: 0px 0px 9px;">Somos especialistas em marketing</td></tr>
-<tr class="m_9124658787106023530dekstop_only" style="border: 0px;"><td align="left" class="m_9124658787106023530dekstop_only" dir="ltr" style="color: #202125; direction: ltr; font-family: Roboto, Arial, sans-serif; font-weight: bold; line-height: 24px; margin: 0px; padding: 0px 0px 15px;">Temos um profundo conhecimento em Ads com as mais novas certificações.
+Somos especialistas em marketing
+Temos um profundo conhecimento em Ads com as mais novas certificações.
 
-<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; color: #444444; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 21px; line-height: 21px; margin: 0px auto; width: 620px;"><tbody>
-<tr style="border: 0px;"><td class="m_9124658787106023530outer_td" style="border: 0px solid rgb(255, 255, 255); color: #414141; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; padding: 0px 10px 32px 9px;"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; line-height: 21px; max-width: 600px; width: 100%px;"><tbody>
-<tr style="border: 0px;"><td align="left" class="m_9124658787106023530para_one m_9124658787106023530padding_left_right" colspan="2" dir="ltr" style="color: #202124; font-family: Roboto, Arial, sans-serif; font-size: 14px; line-height: 24px; margin: 0px; padding: 16px 0px 4px;">Nossas habilidades e conhecimentos são capazes de combinar diferentes áreas de especialidade. Ao aprender mais sobre os diversos tipos de campanha, entendemos a função de cada um na estratégia de marketing e como eles podem ajudar a melhorar o desempenho da sua campanha.</td></tr>
-<tr style="border: 0px;"><td align="left" class="m_9124658787106023530para_one m_9124658787106023530padding_left_right m_9124658787106023530mob_pad_top_para_2" colspan="2" dir="ltr" style="color: #202124; font-family: Roboto, Arial, sans-serif; font-size: 14px; line-height: 24px; margin: 0px; padding: 6px 0px 0px;">Temos certificações e cursos atualizados sobre os principais tipos de campanha, para que você possa ter mais resultados nas áreas a seguir:</td></tr>
-</tbody></table>
-</td></tr>
-</tbody></table>
+Nossas habilidades e conhecimentos são capazes de combinar diferentes áreas de especialidade. Ao aprender mais sobre os diversos tipos de campanha, entendemos a função de cada um na estratégia de marketing e como eles podem ajudar a melhorar o desempenho da sua campanha.
+
+Temos certificações e cursos atualizados sobre os principais tipos de campanha, para que você possa ter mais resultados nas áreas a seguir:
+
+
 <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; color: #444444; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 21px; line-height: 21px; margin: 0px auto; width: 100%px;"><tbody>
 <tr style="border: 0px;"><td class="m_9124658787106023530outer_td" style="background-color: #f8f9fa; border: 0px solid rgb(255, 255, 255); color: #414141; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; padding: 15px 10px 34px 9px;"><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 16px; line-height: 21px; width: 608px;"><tbody>
 <tr style="border: 0px;"><td align="left" class="m_9124658787106023530para_one" colspan="2" dir="ltr" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px;"><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0px; border: 0px; width: 100%px;"><tbody>
@@ -29,12 +26,3 @@ Alcançamos seu público-alvo e atingimos objetivos de marketing usando as solu�
 <tr style="border: 0px;"><td align="center" class="m_9124658787106023530para_one" colspan="2" dir="ltr" style="height: 16px; margin: 0px;" valign="top"></td></tr>
 <tr style="border: 0px;"><td align="left" class="m_9124658787106023530para_one m_9124658787106023530padding_left_mob_bull m_9124658787106023530para_one_mb" dir="ltr" style="color: #202124; font-family: Roboto, Arial, sans-serif; font-size: 14px; line-height: 24px; margin: 0px; padding: 14px 5px 0px; vertical-align: top;" valign="top"><img alt="Shopping" class="CToWUd" src="https://ci5.googleusercontent.com/proxy/U_YOcrE0kZjD7QEMbE08WZVKVs93Th4UM8hWe07K0j499-wEXwhKg5vORQWxvMZ85js48QT45bIIqFZ9phiX9mKJhN319iEuod76M4saLZU=s0-d-e1-ft#https://services.google.com/fh/files/emails/shopping_shop.png" style="border-width: 0px;" /></td><td align="left" class="m_9124658787106023530para_one m_9124658787106023530para_one_mb" dir="ltr" style="color: #202124; font-family: Roboto, Arial, sans-serif; font-size: 16px; line-height: 24px; margin: 0px; padding: 7px 2px 0px 12px; vertical-align: top;" valign="top"><span style="color: black; font-family: &quot;google sans&quot; , &quot;roboto&quot; , &quot;arial&quot; , sans-serif; font-weight: bold; line-height: 24px;">Shopping:</span>
 Exiba seus produtos para os milhões de compradores on-line que estão pesquisando exatamente o que você oferece.</td></tr>
-</tbody></table>
-</td></tr>
-</tbody></table>
-</td></tr>
-</tbody></table>
-</td></tr>
-</tbody></table>
-</td></tr>
-</tbody></table>
