@@ -1,10 +1,11 @@
-#Bootstrap is used to style bits of the demo. Remove it from the config, gemfile and stylesheets to stop using bootstrap
+#Bootstrap é usado para estilizar bits da demonstração. Remova-o da configuração, gemfile e folhas de estilo para parar de usar o bootstrap
 require "uglifier"
 
-# Activate and configure extensions
+
+# Ativar e configurar extensões
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-# Use '#id' and '.classname' as div shortcuts in slim
+# Use '#id' e '.classname' como atalhos div em slim
 # http://slim-lang.com/
 Slim::Engine.set_options shortcut: {
   '#' => { tag: 'div', attr: 'id' }, '.' => { tag: 'div', attr: 'class' }
@@ -29,6 +30,7 @@ activate :blog do |blog|
   blog.permalink = "news/{year}/{title}.html"
   blog.sources = "posts/{title}.html"
   blog.layout = "news-detail"
+  
 end
 
 # With alternative layout
@@ -46,15 +48,16 @@ data.products.each do |_filename, product|
   ignore: true
 end
 
-# Helpers
-# Methods defined in the helpers block are available in templates
+# Ajudantes
+# Os métodos definidos no bloco auxiliar estão disponíveis nos modelos
 # https://middlemanapp.com/basics/helper-methods/
 
 # pretty urls
 activate :directory_indexes
 
 helpers do
-  #helper to set background images with asset hashes in a style attribute
+
+#helper para definir imagens de plano de fundo com hashes de ativos em um atributo de estilo
   def background_image(image)
     "background-image: url('" << image_path(image) << "')"
   end
@@ -70,7 +73,7 @@ helpers do
   end
 end
 
-# Build-specific configuration
+# Configuração específica da compilação
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
@@ -83,7 +86,7 @@ configure :build do
   # Use Gzip
   activate :gzip
 
-  #Use asset hashes to use for caching
+  #Utilizar hashes de ativos para usar em cache
   #activate :asset_hash
 
 end
