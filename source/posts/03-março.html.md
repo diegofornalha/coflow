@@ -12,7 +12,7 @@ Nossas habilidades e conhecimentos são capazes de combinar diferentes áreas de
 Temos certificações e cursos atualizados sobre os principais tipos de campanha, para que você possa ter mais resultados nas áreas a seguir:
 
 <table border="0">
-<td align="left"  style="padding: 21px 5px 0px; " >
+<td align="left"  style="padding: 30px 5px px; " >
 
 <img alt="Pesquisa" class="CToWUd" src="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" style="border-width: 0px;" />
 
