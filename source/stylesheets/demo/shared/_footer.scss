@@ -19,11 +19,6 @@ footer {
     padding: 30px 15px 60px;
   }
 
-  .newsletter {
-    @extend %column;
-    @extend %col-md-6;
-    @extend %col-sm-8;
-  }
 
   .social {
     @extend %column;
