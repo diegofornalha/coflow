@@ -6,4 +6,4 @@ image: /images/uploads/news_item-01.png
 ---
 Novas atualizações serão postadas todos os meses.
 
-Confira Nossa Apresentação: <https://coflow.42-rio.cf/images/uploads/coflow.pdf>
+Confira Nossa Apresentação: <https://coflow.42-rio.cf/proposta/comercial.pdf>[](https://coflow.42-rio.cf/images/uploads/coflow.pdf)
