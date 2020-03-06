@@ -18,6 +18,4 @@ Temos certificações e cursos atualizados sobre os principais tipos de campanha
 
 <a href="https://ci5.googleusercontent.com/proxy/U_YOcrE0kZjD7QEMbE08WZVKVs93Th4UM8hWe07K0j499-wEXwhKg5vORQWxvMZ85js48QT45bIIqFZ9phiX9mKJhN319iEuod76M4saLZU=s0-d-e1-ft#https://services.google.com/fh/files/emails/shopping_shop.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Shopping" border="0" class="CToWUd" height="50" src="https://ci5.googleusercontent.com/proxy/U_YOcrE0kZjD7QEMbE08WZVKVs93Th4UM8hWe07K0j499-wEXwhKg5vORQWxvMZ85js48QT45bIIqFZ9phiX9mKJhN319iEuod76M4saLZU=s0-d-e1-ft#https://services.google.com/fh/files/emails/shopping_shop.png" width="50" /></a><span style="font-weight: bold;">Shopping:</span> Exiba seus produtos para os milhões de compradores on-line que estão pesquisando exatamente o que você oferece.
 
-
-
-Confira Nossa Apresentação: <https://coflow.42-rio.cf/images/uploads/coflow.pdf>
+Confira Nossa Apresentação: [](https://coflow.42-rio.cf/images/uploads/coflow.pdf)<https://coflow.42-rio.cf/proposta/comercial.pdf>
