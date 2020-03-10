@@ -26,6 +26,4 @@ Uma campanha performando bem é:
 
 Uma campanha dentro do **resultado esperado** e na **escala desejada.**
 
-
-
 Confira Nossa Apresentação: <https://coflow.42-rio.cf/proposta/comercial.pdf>[](https://coflow.42-rio.cf/images/uploads/coflow.pdf)
