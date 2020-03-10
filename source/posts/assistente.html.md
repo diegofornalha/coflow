@@ -12,7 +12,7 @@ Hoje vamos falar dos **4 pontos** que você precisa alterar para otimizar a sua 
 
    Quanto maior é seu orçamento (lance), mais escala e maior o CPA.
 
-   O CPA é a métrica mais importante da otimização
+   O CPA é a métrica mais importante da otimização e descobrimos ela através do histórico dos anúncios.
 
 **2)** Públicos
 
@@ -22,9 +22,9 @@ Hoje vamos falar dos **4 pontos** que você precisa alterar para otimizar a sua 
 
 
 
-Novas atualizações serão postadas todos os meses.
+Uma campanha performando bem é: 
 
-
+Uma campanha dentro do **resultado esperado** e na **escala desejada.**
 
 
 
