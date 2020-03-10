@@ -20,13 +20,11 @@ Hoje vamos falar dos **4 pontos** que você precisa alterar para otimizar a sua 
 
 **4)** Estrutura
 
-
-
 Uma campanha performando bem é: 
 
 Uma campanha dentro do **resultado esperado** e na **escala desejada.**
 
-
+**No minimo faça os ajustes a cada dois dias com base no histórico de resultados.**
 
 
 
