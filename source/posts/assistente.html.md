@@ -20,17 +20,13 @@ Hoje vamos falar dos **4 pontos** que você precisa alterar para otimizar a sua 
 
 **4)** Estrutura
 
-
-
-
-
 Uma campanha performando bem é: 
 
 Uma campanha dentro do **resultado esperado** e na **escala desejada.**
 
 **No minimo faça os ajustes a cada dois dias com base no histórico de resultados.**
 
-**Olhar a cada 2 dias, se não deixe passar de uma semana sem fazer ajustes para não perder para concorrência.**
+**Olhar a cada 2 dias sua campanha, não deixe passar de uma semana sem fazer ajustes para não perder para concorrência.**
 
 **Exemplo:**
 
@@ -67,7 +63,5 @@ Quanto que você quer pagar por lead? 10 reais?
 *ESCALA: 15* leads/dia
 
 ***CPA DESEJADO NA ESCALA DESEJADA***
-
-
 
 Confira Nossa Apresentação: <https://coflow.42-rio.cf/proposta/comercial.pdf>[](https://coflow.42-rio.cf/images/uploads/coflow.pdf)
