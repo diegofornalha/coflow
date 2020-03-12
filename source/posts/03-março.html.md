@@ -2,7 +2,7 @@
 title: (03) MARÇO - 2020
 date: 2020-03-01T18:33:00.000Z
 description: MARÇO
-image: /images/uploads/news_item-01.png
+image: /images/uploads/000.png
 ---
 Somos **especialistas em marketing** Temos um profundo conhecimento em Ads com as mais novas certificações.
 
