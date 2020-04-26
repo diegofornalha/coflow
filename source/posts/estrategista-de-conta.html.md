@@ -1,9 +1,21 @@
 ---
-title: (02) FEVEREIRO - 2020
-date: 2020-02-01T18:33:00.000Z
+title: (03) MARÇO - 2020
+date: 2020-03-01T18:33:00.000Z
 description: Página em Manutenção
 image: /images/uploads/news_item-02.png
 ---
-Conteúdo está sendo revisado, em breve estará aqui atualizado, enquanto isso confira nossa apresentação: [](https://coflow.42-rio.cf/images/uploads/coflow.pdf)
+Somos **especialistas em marketing** Temos um profundo conhecimento em Ads com as mais novas certificações.
 
-<https://coflow.42-rio.cf/proposta/comercial.pdf>
+Nossas habilidades e conhecimentos são capazes de combinar diferentes áreas de especialidade. Ao aprender mais sobre os diversos tipos de campanha, entendemos a função de cada um na estratégia de marketing e como eles podem ajudar a melhorar o desempenho da sua campanha.
+
+Temos certificações e cursos atualizados sobre os principais tipos de campanha, para que você possa ter mais resultados nas áreas a seguir:
+
+<a href="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Pesquisa" class="CToWUd" height="50" src="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" style="border-width: 0px;" width="50" /></a><span style="font-weight: bold;">Pesquisa:</span> Aplicamos os fundamentos, como palavras-chave e estratégias de lances, para otimizar as campanhas.
+
+<a href="https://ci5.googleusercontent.com/proxy/F8M8nwfEVXin6TJxqWmgKbkquZTeSuoZ1ew7v7bnZ-Cn0v6rMy-GTr9Dfh0ldsOOeD0A-uiBotvQlPLxSxbvoeJhomTbcua04m8F8sMayi_tr4Q=s0-d-e1-ft#https://services.google.com/fh/files/emails/display_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Display" border="0" class="CToWUd" height="50" src="https://ci5.googleusercontent.com/proxy/F8M8nwfEVXin6TJxqWmgKbkquZTeSuoZ1ew7v7bnZ-Cn0v6rMy-GTr9Dfh0ldsOOeD0A-uiBotvQlPLxSxbvoeJhomTbcua04m8F8sMayi_tr4Q=s0-d-e1-ft#https://services.google.com/fh/files/emails/display_shopping.png" style="border-width: 0px;" width="50" /></a><span style="font-weight: bold;">Display:</span> Identificamos e criamos estratégias, planejamento e definição do orçamento de anúncios de display para gerar reconhecimento e ações.
+
+<a href="https://ci3.googleusercontent.com/proxy/IoEjCcmLTOwTt5g4SGaoeH32L1d6JD7oYm5wAV--iMDCWE75F716b3-b5-NhrQUK1kQQglde4A96smETtE7fQrnZiudUsOhcxe1B7M9umfyO=s0-d-e1-ft#https://services.google.com/fh/files/emails/video_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Vídeo" border="0" class="CToWUd" height="50" src="https://ci3.googleusercontent.com/proxy/IoEjCcmLTOwTt5g4SGaoeH32L1d6JD7oYm5wAV--iMDCWE75F716b3-b5-NhrQUK1kQQglde4A96smETtE7fQrnZiudUsOhcxe1B7M9umfyO=s0-d-e1-ft#https://services.google.com/fh/files/emails/video_shopping.png" style="border-width: 0px;" width="50" /></a> <a href="https://ci6.googleusercontent.com/proxy/ThZQzZDa4xKzXZfHCULEe5HOFOhtQuQJuyIdBIwZ-vZwB6t8V_C0E7au7npMTLxv5f3vhLt-oqnA2ZcIuH3lckZDO1QMVqWf9nVF7DB5L8QSyA=s0-d-e1-ft#https://services.google.com/fh/files/emails/search_shopping.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"></a> <span style="font-weight: bold;">Vídeo:</span> Alcançamos seu público-alvo e atingimos objetivos de marketing usando as soluções de publicidade em vídeo
+
+<a href="https://ci5.googleusercontent.com/proxy/U_YOcrE0kZjD7QEMbE08WZVKVs93Th4UM8hWe07K0j499-wEXwhKg5vORQWxvMZ85js48QT45bIIqFZ9phiX9mKJhN319iEuod76M4saLZU=s0-d-e1-ft#https://services.google.com/fh/files/emails/shopping_shop.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img alt="Shopping" border="0" class="CToWUd" height="50" src="https://ci5.googleusercontent.com/proxy/U_YOcrE0kZjD7QEMbE08WZVKVs93Th4UM8hWe07K0j499-wEXwhKg5vORQWxvMZ85js48QT45bIIqFZ9phiX9mKJhN319iEuod76M4saLZU=s0-d-e1-ft#https://services.google.com/fh/files/emails/shopping_shop.png" width="50" /></a><span style="font-weight: bold;">Shopping:</span> Exiba seus produtos para os milhões de compradores on-line que estão pesquisando exatamente o que você oferece.
+
+Confira Nossa Apresentação: [](https://coflow.42-rio.cf/images/uploads/coflow.pdf)<https://coflow.42-rio.cf/proposta/comercial.pdf>

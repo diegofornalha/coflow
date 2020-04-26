@@ -2,10 +2,10 @@ nav_items:
   - label: Inicio
     path: /
   - label: Equipe Técnica
-    path: /products/
+    path: /products
   - label: Novidades
     path: /news
   - label: Diego@coflow.cf
-    path: 'https://www.linkedin.com/in/diegofornalha/'
+    path: https://www.linkedin.com/in/diegofornalha/
   - label: login
-    path: 'https://coflow.42-rio.cf/admin/'
+    path: https://coflow.42-rio.cf/admin/

@@ -4,8 +4,6 @@ date: 2020-01-01T18:33:00.000Z
 description: Primeiro mês do ano.
 image: /images/uploads/news_item-01.png
 ---
-Feliz ano novo!
-
 Hoje vamos falar dos **4 pontos** que você precisa alterar para otimizar a sua campanha para ter resultados significativos.
 
 1. **Orçamentos**
