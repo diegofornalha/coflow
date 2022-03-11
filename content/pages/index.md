@@ -176,7 +176,7 @@ sections:
   - colors: colors-a
     elementId: ''
     title: Para startar JÁ!
-    subtitle: Criamos uma para seu time iniciar no mundo blockchain
+    subtitle: Criamos uma para seu time iniciar no mundo Blockchain
     items:
       - type: FeaturedItem
         title: POC | Prova de Conceito
