@@ -68,7 +68,6 @@ sections:
   - type: MediaGallerySection
     colors: colors-h
     title: Parceiros
-    subtitle: TECNOLOGIAS UTILIZADAS
     images:
       - type: ImageBlock
         url: /images/apple.svg
