@@ -142,7 +142,7 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/hero-1.png
+      url: /images/coflow3d.gif
       altText: Hero section image
     styles:
       self:
