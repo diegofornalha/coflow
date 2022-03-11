@@ -333,8 +333,8 @@ sections:
     colors: colors-a
     title: Linguagem de programação
     text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
+      Utilizamos da linguagem de programação solidity para seus contratos
+      inteligentes.
     actions:
       - type: Button
         label: Get Started
