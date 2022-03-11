@@ -15,7 +15,7 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
       - type: Link
-        label: turma de aberta de solidity (smart CONTRACTS)
+        label: turma aberta de solidity (smart CONTRACTS)
         url: /
         showIcon: true
         icon: arrowRight
