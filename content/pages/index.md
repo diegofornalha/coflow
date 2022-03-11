@@ -374,7 +374,7 @@ sections:
     title: Temos um blog para te introduzir nos temas
     actions:
       - type: Link
-        label: See all posts
+        label: Novas postagens
         url: /blog
         showIcon: true
         icon: arrowRight
