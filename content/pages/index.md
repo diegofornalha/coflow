@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
-    title: Prova de Conceito em uma semana
+    title: Seu time vai ser fluente na Web3?
     subtitle: 'One platform, one community.'
     actions:
       - type: Button
