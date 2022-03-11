@@ -15,7 +15,7 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
       - type: Link
-        label: Antes de se inscrever veja como funciona
+        label: turma de solidity
         url: /
         showIcon: true
         icon: arrowRight
