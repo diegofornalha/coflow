@@ -280,7 +280,7 @@ sections:
 
     actions:
       - type: Button
-        label: Get Started
+        label: Primeira Aula Gratuita Para o Seu Time
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
