@@ -271,7 +271,7 @@ sections:
       - quote: |+
           ## Diego Alcantara
 
-        name: Fundador
+        name: blockchain developer
         title: Happy customer
         image:
           type: ImageBlock
