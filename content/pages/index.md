@@ -284,9 +284,9 @@ sections:
   - elementId: ''
     colors: colors-a
     title: Tecnologia em Ação
-    text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
+    text: |+
+      Todo tipo de negocio pode ter viabilidade na web3
+
     actions:
       - type: Button
         label: Get Started
