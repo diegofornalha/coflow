@@ -64,7 +64,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     colors: colors-h
-    title: Trusted by
+    title: TECNOLOGIAS UTILIZADAS
     subtitle: Trusted by
     images:
       - type: ImageBlock
