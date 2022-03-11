@@ -137,7 +137,7 @@ sections:
       Temos um artigo especifico falando detalhes sobre a nossa empresa.
     actions:
       - type: Button
-        label: Saiba Mais
+        label: Seja um Parceiro
         url: /
         style: primary
     media:
