@@ -272,7 +272,7 @@ sections:
           ## Diego Alcantara
 
         name: blockchain developer
-        title: Happy customer
+        title: Fundador
         image:
           type: ImageBlock
           url: /images/carla.jpg
