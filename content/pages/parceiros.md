@@ -272,7 +272,7 @@ sections:
           ## Diego Alcantara
 
         name: Blockchain Developer
-        title: Fundador
+        title: Fundador da Coflow
         image:
           type: ImageBlock
           url: /images/carla.jpg
