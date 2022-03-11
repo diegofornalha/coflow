@@ -303,7 +303,7 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/hero-1.png
+      url: /images/metaverso.gif
       altText: Hero section image
     styles:
       self:
