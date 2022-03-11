@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
-    title: 'Love your work. Work loves you.'
+    title: Love your work. Work loves you.
     subtitle: 'One platform, one community.'
     actions:
       - type: Button
@@ -143,7 +143,7 @@ sections:
         caption: ZCOOL
     spacing: 3
     columns: 7
-    aspectRatio: 'auto'
+    aspectRatio: auto
     showCaption: false
     enableHover: false
     styles:
@@ -378,12 +378,13 @@ sections:
   - elementId: ''
     colors: colors-a
     variant: variant-b
-    title: We sometimes write things. You should read it, it might shed some
-      light on why we’re doing what we’re doing
+    title: >-
+      We sometimes write things. You should read it, it might shed some light on
+      why we’re doing what we’re doing
     actions:
       - type: Link
         label: See all posts
-        url: '/blog'
+        url: /blog
         showIcon: true
         icon: arrowRight
     posts:
@@ -516,52 +517,4 @@ sections:
       subtitle:
         textAlign: left
     type: TestimonialsSection
-  - type: ContactSection
-    colors: colors-f
-    backgroundSize: inset
-    title: Get early access
-    text: >
-      Sign up your team today to be the first to try out our new product to
-      increase your team’s productivity
-    form:
-      type: FormBlock
-      variant: variant-b
-      elementId: sign-up-form
-      destination: ''
-      action: /.netlify/functions/submission_created
-      fields:
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Your email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-      submitLabel: Sign Up
-      styles:
-        submitLabel:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-24
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-24
-          - pb-24
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: xx-large
-        boxShadow: xx-large
-      title:
-        textAlign: center
-      text:
-        textAlign: center
 ---
