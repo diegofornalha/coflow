@@ -231,7 +231,7 @@ sections:
               - pb-6
               - pr-4
       - type: FeaturedItem
-        title: Lançaçmento do seu Token
+        title: Lançaçmento
         text: >
           Learn how top tech companies have learned working remote using our
           product.
