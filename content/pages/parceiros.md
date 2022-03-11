@@ -67,7 +67,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     colors: colors-h
-    title: Parceiros
+    title: Outros Clientes e Parceiros
     images:
       - type: ImageBlock
         url: /images/apple.svg
