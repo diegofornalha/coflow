@@ -351,7 +351,7 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/realidade virtual.gif
+      url: /images/solidity.gif
       altText: Hero section image
     styles:
       self:
