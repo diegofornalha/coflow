@@ -8,7 +8,7 @@ excerpt: >-
   eget egestas tortor pretium id. Sed imperdiet mattis eleifend.
 featuredImage:
   type: ImageBlock
-  url: /images/post-1.jpg
+  url: /images/ethereum2.0.gif
   altText: Post Image
 bottomSections:
   - elementId: ''
@@ -20,8 +20,16 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-56', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         textAlign: center
