@@ -500,7 +500,7 @@ sections:
 
 
         name: Mercado para pequenos e grandes colecionadores
-        title: NFT do Bored Ape Yacht Club
+        title: Neymar compra NFTs do Bored Ape Yacht Club
         image:
           type: ImageBlock
           url: /images/nft.gif
