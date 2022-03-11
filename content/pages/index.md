@@ -71,7 +71,7 @@ sections:
         url: /
         style: primary
       - type: Link
-        label: Watch Video
+        label: primoverso
         url: /
         showIcon: true
         icon: playCircle
