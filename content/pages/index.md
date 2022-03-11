@@ -6,7 +6,9 @@ sections:
     elementId: homepage-hero-1
     colors: colors-a
     title: Seu time vai ser fluente na Web3?
-    subtitle: 'One platform, one community.'
+    subtitle: >-
+      Desenvolva uma poc do zero em menos de 1 mês para que seu time dê os
+      primeiros passos em direção ao futuro.
     actions:
       - type: Button
         label: Get Started
