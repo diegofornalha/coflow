@@ -271,7 +271,7 @@ sections:
       - quote: |+
           ## Diego Alcantara
 
-        name: Carla Rogers
+        name: Fundador
         title: Happy customer
         image:
           type: ImageBlock
