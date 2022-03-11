@@ -326,12 +326,6 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
-      - type: Link
-        label: Learn More
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
     media:
       type: ImageBlock
       url: /images/solidity.gif
