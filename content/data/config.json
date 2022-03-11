@@ -22,7 +22,8 @@
             {
                 "type": "Link",
                 "url": "/faq",
-                "altText": ""
+                "altText": "",
+                "label": "FAQ"
             },
             {
                 "type": "Link",
