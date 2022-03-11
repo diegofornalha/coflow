@@ -223,7 +223,7 @@ sections:
               - pb-6
               - pr-4
       - type: FeaturedItem
-        title: Lançaçmento
+        title: Lançamento
         featuredImage:
           url: /images/focused.svg
           altText: altText of the image
