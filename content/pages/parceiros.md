@@ -134,7 +134,7 @@ sections:
         self:
           textAlign: left
     text: |
-      Clique no link abaixo para ser parceiro Coflow Blockchain
+      Clique no link abaixo para ser parceiro da Coflow Blockchain
     actions:
       - type: Button
         label: Seja um Parceiro
