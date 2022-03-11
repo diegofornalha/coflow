@@ -22,7 +22,7 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/hero.png
+      url: /images/blockchain.png
       altText: Image alt text
       caption: Image caption
     styles:
