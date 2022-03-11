@@ -500,7 +500,7 @@ sections:
 
 
         name: Colecionadores
-        title: Happy customer
+        title: NFT do Bored Ape Yacht Club
         image:
           type: ImageBlock
           url: /images/nft.gif
