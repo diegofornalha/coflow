@@ -229,7 +229,7 @@ sections:
       Temos um artigo especifico falando detalhes da nossa empresa.
     actions:
       - type: Button
-        label: Sign Up
+        label: Saiba Mais
         url: /
         style: primary
     media:
