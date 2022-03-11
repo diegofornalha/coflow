@@ -11,7 +11,7 @@ sections:
       primeiros passos em direção ao futuro.
     actions:
       - type: Button
-        label: 'Primeira Aula Gratuita Para o Seu time '
+        label: 'Primeira Aula Gratuita Para o Seu Time '
         url: 'https://www.stackbit.com/'
         style: primary
       - type: Link
