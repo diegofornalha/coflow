@@ -262,39 +262,5 @@ sections:
       actions:
         justifyContent: flex-start
     type: FeatureHighlightSection
-  - type: TestimonialsSection
-    colors: colors-a
-    variant: variant-a
-    title: ''
-    subtitle: ''
-    testimonials:
-      - quote: |+
-          ## Diego Alcantara
-
-        name: Blockchain Developer
-        title: Fundador da Coflow
-        image:
-          type: ImageBlock
-          url: /images/carla.jpg
-          altText: Photo of Carla Rogers
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
 layout: PageLayout
 ---
