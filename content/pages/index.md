@@ -22,7 +22,7 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/blockchain.png
+      url: /images/web3.gif
       altText: Metaverse
       caption: metaverse
     styles:
