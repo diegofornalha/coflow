@@ -67,7 +67,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     colors: colors-h
-    title: TECNOLOGIAS UTILIZADAS
+    title: Parceiros
     subtitle: TECNOLOGIAS UTILIZADAS
     images:
       - type: ImageBlock
