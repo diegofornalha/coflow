@@ -71,7 +71,7 @@ sections:
         url: /
         style: primary
       - type: Link
-        label: primoverso
+        label: Neymar investe em nft assista o primoverso
         url: 'https://www.youtube.com/watch?v=fhcmh4eeHEc'
         showIcon: true
         icon: playCircle
