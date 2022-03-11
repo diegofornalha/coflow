@@ -181,7 +181,7 @@ sections:
       you’re looking for.
     items:
       - type: FeaturedItem
-        title: Criação do Token
+        title: POC | Prova de Conceito
         text: >
           Learn how top tech companies have learned working remote using our
           product.
