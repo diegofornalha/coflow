@@ -32,7 +32,7 @@ sections:
         iconPosition: left
     media:
       type: ImageBlock
-      url: /images/hero-3.jpg
+      url: /images/ajuda.gif
       altText: Team meeting
     styles:
       self:
