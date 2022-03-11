@@ -15,7 +15,7 @@ sections:
       product.
     badge:
       type: Badge
-      label: Case study
+      label: Estudo de caso
       styles:
         self:
           textAlign: left
