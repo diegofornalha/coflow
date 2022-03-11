@@ -217,7 +217,7 @@ sections:
   - elementId: ''
     colors: colors-a
     backgroundSize: full
-    title: A Coflow
+    title: Coflow BlockChain
     subtitle: ''
     badge:
       label: Um novo Mundo no seu Flow
