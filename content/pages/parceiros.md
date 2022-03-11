@@ -65,7 +65,7 @@ sections:
   - type: MediaGallerySection
     colors: colors-h
     title: TECNOLOGIAS UTILIZADAS
-    subtitle: Trusted by
+    subtitle: TECNOLOGIAS UTILIZADAS
     images:
       - type: ImageBlock
         url: /images/apple.svg
