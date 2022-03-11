@@ -63,7 +63,8 @@
             },
             "type": "ImageBlock",
             "url": "/images/logo.svg"
-        }
+        },
+        "title": "coflow"
     },
     "footer": {
         "colors": "colors-h",
