@@ -114,7 +114,7 @@ sections:
           opacity: 100
       type: ImageBlock
   - colors: colors-h
-    subtitle: Trusted by
+    subtitle: As grandes marcas aos poucos estão se apresentando na Blockchain
     elementId: ''
     images:
       - type: ImageBlock
