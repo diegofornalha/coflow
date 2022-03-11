@@ -67,7 +67,7 @@ sections:
           textAlign: left
     actions:
       - type: Button
-        label: Comaçar Agora
+        label: Primeira Aula Gratuita Para o Seu Time
         url: /
         style: primary
       - type: Link
