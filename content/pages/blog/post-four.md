@@ -1,5 +1,5 @@
 ---
-title: Entenda a proposta da rede bitcoin
+title: Entenda um pouco mais a proposta do bitcoin
 layout: PostLayout
 date: '2021-11-03'
 author: content/data/team/desmond-eagle.json
