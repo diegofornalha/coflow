@@ -59,7 +59,7 @@ sections:
       product.
     badge:
       type: Badge
-      label: Case study
+      label: A festa começou
       styles:
         self:
           textAlign: left
