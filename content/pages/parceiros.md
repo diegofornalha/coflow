@@ -20,7 +20,7 @@ sections:
           textAlign: left
     actions:
       - type: Button
-        label: Get Started
+        label: Site do Projeto
         url: /
         style: primary
       - type: Link
