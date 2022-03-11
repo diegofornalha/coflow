@@ -175,7 +175,7 @@ sections:
     type: MediaGallerySection
   - colors: colors-a
     elementId: ''
-    title: Para startar JÁ!
+    title: Startar JÁ!
     subtitle: Criamos um cronograma base para seu time iniciar no mundo Blockchain
     items:
       - type: FeaturedItem
