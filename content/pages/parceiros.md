@@ -64,7 +64,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     colors: colors-h
-    title: ''
+    title: Trusted by
     subtitle: Trusted by
     images:
       - type: ImageBlock
