@@ -21,7 +21,7 @@ sections:
     actions:
       - type: Button
         label: Site do Projeto
-        url: /
+        url: 'https://mais1code.com.br/'
         style: primary
       - type: Link
         label: Watch Video
