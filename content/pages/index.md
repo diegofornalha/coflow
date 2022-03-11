@@ -499,7 +499,7 @@ sections:
 
 
 
-        name: Carla Rogers
+        name: Colecionadores
         title: Happy customer
         image:
           type: ImageBlock
