@@ -494,9 +494,11 @@ sections:
     colors: colors-a
     variant: variant-a
     testimonials:
-      - quote: >
-          Such a great experience to be using this product. It really helped
-          with what I needed help with.
+      - quote: >+
+          # Por que Neymar gastou R$ 6 milhões em ‘imagens’ de macacos? Entenda
+          o que são NFTs e como você pode lucrar com eles (sem precisar
+          desembolsar milhões de reais)
+
         name: Carla Rogers
         title: Happy customer
         image:
