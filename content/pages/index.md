@@ -505,23 +505,6 @@ sections:
           type: ImageBlock
           url: /images/nft.gif
           altText: Photo of Carla Rogers
-      - quote: >-
-          “It’s great to see someone taking action while still maintaining a
-          sustainable fish supply to home cooks.”
-        name: Johnna Doe
-        title: Product Marketing Manager at Acme
-        image:
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-person.png
-          altText: Person photo
-        elementId: ''
-        styles:
-          name:
-            fontWeight: 400
-            fontStyle: normal
-          title:
-            fontWeight: 400
-            fontStyle: normal
     styles:
       self:
         height: auto
