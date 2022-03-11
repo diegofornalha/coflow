@@ -236,7 +236,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/blockchain em ação.webp
+      url: /images/3d.gif
       altText: Hero image
     styles:
       self:
