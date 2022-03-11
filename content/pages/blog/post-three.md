@@ -1,7 +1,7 @@
 ---
 title: Guia completo rede Ethereum 1.0
 layout: PostLayout
-date: '2021-07-01'
+date: '2022-02-01'
 author: content/data/team/hilary-ouse.json
 excerpt: >-
   Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
