@@ -10,9 +10,8 @@ sections:
     colors: colors-f
     backgroundSize: inset
     title: Mais Um Code
-    text: |+
-      **Uma DAO (organização autônoma descentralizada)**
-
+    text: |
+      **Uma DAO (organização autônoma descentralizada).**
     badge:
       type: Badge
       label: Estudo de caso
