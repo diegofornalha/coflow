@@ -1,5 +1,5 @@
 ---
-title: Virtual benefits
+title: Guia completo rede Ethereum 2.0
 layout: PostLayout
 date: '2021-06-28'
 author: content/data/team/dianne-ameter.json
