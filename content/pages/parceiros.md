@@ -10,8 +10,9 @@ sections:
     colors: colors-f
     backgroundSize: inset
     title: Mais Um Code
-    text: |
-      **Uma DAO (organização autônoma descentralizada).**
+    text: >
+      **Aquela ajuda que vem na hora certa para os jovens de comunidade, No DAO
+      (organização autônoma descentralizada). O projeto tem sido um sucesso.**
     badge:
       type: Badge
       label: Estudo de caso
