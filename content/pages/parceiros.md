@@ -220,7 +220,7 @@ sections:
     title: A Coflow
     subtitle: ''
     badge:
-      label: This is the badge
+      label: Um novo Mundo no seu Flow
       elementId: ''
       styles:
         self:
