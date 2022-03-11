@@ -271,7 +271,7 @@ sections:
       - quote: |+
           ## Diego Alcantara
 
-        name: blockchain developer
+        name: Blockchain Developer
         title: Fundador
         image:
           type: ImageBlock
