@@ -67,7 +67,7 @@ sections:
           textAlign: left
     actions:
       - type: Button
-        label: Get Started
+        label: Comaçar Agora
         url: /
         style: primary
       - type: Link
