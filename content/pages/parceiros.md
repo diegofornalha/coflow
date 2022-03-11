@@ -9,7 +9,7 @@ sections:
   - type: FeatureHighlightSection
     colors: colors-f
     backgroundSize: inset
-    title: Where did everyone go?
+    title: Mais Um Code
     text: >-
       Learn how top tech companies have learned working remote using our
       product.
