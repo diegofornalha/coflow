@@ -1,5 +1,5 @@
 ---
-title: Surround Yourself With the Right People
+title: Guia completo rede Ethereum
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hilary-ouse.json
