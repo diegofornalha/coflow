@@ -23,7 +23,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/blockchain.png
-      altText: Image alt text
+      altText: Metaverse
       caption: Image caption
     styles:
       self:
