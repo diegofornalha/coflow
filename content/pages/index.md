@@ -501,7 +501,7 @@ sections:
         title: Happy customer
         image:
           type: ImageBlock
-          url: /images/carla.jpg
+          url: /images/nft.gif
           altText: Photo of Carla Rogers
     styles:
       self:
