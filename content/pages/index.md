@@ -499,7 +499,7 @@ sections:
 
 
 
-        name: Colecionadores
+        name: Mercado para pequenos e grandes colecionadores
         title: NFT do Bored Ape Yacht Club
         image:
           type: ImageBlock
