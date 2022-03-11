@@ -125,7 +125,7 @@ sections:
         textAlign: center
   - type: FeatureHighlightSection
     colors: colors-a
-    title: 'A great feature, we’re proud of'
+    title: BlockChain
     text: >-
       Share WIP, comment on each other’s work, approve what’s ready to go, ship
       together
