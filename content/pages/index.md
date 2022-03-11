@@ -322,7 +322,7 @@ sections:
       inteligentes.
     actions:
       - type: Button
-        label: Get Started
+        label: TURMA ABERTA DE SOLIDITY (SMART CONTRACTS)
         url: 'https://www.stackbit.com/'
         style: primary
         elementId: hero-main-button
