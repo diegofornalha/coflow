@@ -122,52 +122,6 @@ sections:
         textAlign: center
       subtitle:
         textAlign: center
-  - type: FeatureHighlightSection
-    colors: colors-a
-    title: And a strong value proposition
-    text: >-
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
-    actions:
-      - type: Button
-        label: Get Started
-        url: /
-        style: primary
-      - type: Link
-        label: Learn More
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-    media:
-      type: ImageBlock
-      url: /images/futuro web3.gif
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-6
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        flexDirection: row-reverse
-        alignItems: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
   - elementId: ''
     colors: colors-a
     backgroundSize: full
