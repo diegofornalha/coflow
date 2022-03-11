@@ -203,7 +203,7 @@ sections:
       actions:
         justifyContent: center
     title: Artigos
-    subtitle: Featured blog posts section example
+    subtitle: do mais básico até temas avançados
     colors: colors-f
     posts:
       - content/pages/blog/post-three.md
