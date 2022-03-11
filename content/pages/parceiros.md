@@ -226,7 +226,7 @@ sections:
         self:
           textAlign: left
     text: |
-      Temos um artigo especifico falando detalhes da nossa empresa.
+      Temos um artigo especifico falando detalhes sobre a nossa empresa.
     actions:
       - type: Button
         label: Saiba Mais
