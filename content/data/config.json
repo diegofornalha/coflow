@@ -37,7 +37,7 @@
                 "type": "Button",
                 "label": "PARCEIROS",
                 "url": "/",
-                "altText": "Sign up",
+                "altText": "parceiros",
                 "style": "primary"
             }
         ],
