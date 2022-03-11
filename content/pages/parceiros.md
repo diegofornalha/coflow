@@ -11,8 +11,11 @@ sections:
     backgroundSize: inset
     title: Mais Um Code
     text: >
-      **Aquela ajuda que vem na hora certa para os jovens de comunidade, No DAO
-      (organização autônoma descentralizada). O projeto tem sido um sucesso.**
+      **Aquela ajuda que vem na hora certa para os jovens de comunidade! **
+
+
+      **Ajudamos organizações autônomas descentralizadas, esse é um dos projetos
+      que iniciamos juntos e tem sido um sucesso.**
     badge:
       type: Badge
       label: Estudo de caso
