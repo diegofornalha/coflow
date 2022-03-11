@@ -15,7 +15,7 @@ sections:
         url: 'https://www.stackbit.com/'
         style: primary
       - type: Link
-        label: Learn More
+        label: Antes de se inscrever veja como funciona
         url: /
         showIcon: true
         icon: arrowRight
