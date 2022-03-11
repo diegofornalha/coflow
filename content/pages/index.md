@@ -224,9 +224,6 @@ sections:
               - pr-4
       - type: FeaturedItem
         title: Lançaçmento
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
         featuredImage:
           url: /images/focused.svg
           altText: altText of the image
