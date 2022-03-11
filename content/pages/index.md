@@ -494,10 +494,10 @@ sections:
     colors: colors-a
     variant: variant-a
     testimonials:
-      - quote: >+
-          # Por que Neymar gastou R$ 6 milhões em ‘imagens’ de macacos? Entenda
-          o que são NFTs e como você pode lucrar com eles (sem precisar
-          desembolsar milhões de reais)
+      - quote: |+
+          # Neymar investiu R$ 6 milhões em ‘imagens’ de macacos?
+
+
 
         name: Carla Rogers
         title: Happy customer
