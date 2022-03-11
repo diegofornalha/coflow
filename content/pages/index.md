@@ -55,11 +55,10 @@ sections:
     backgroundSize: inset
     title: Está preparado?
     text: >
-      Metaverso é a união de "Meta", que em grego significa além, com universo.
-      Resultando em "além do universo". A primeira vez que o termo apareceu foi
-      lá em 1992 com Snow Crash, livro de Neil Stephenson. Então, metaverso
-      seria uma espécie de realidade paralela, que só conseguimos entrar usando
-      a tecnologia.
+      Metaverso significa "além do universo". A primeira vez que o termo
+      apareceu foi lá em 1992 com Snow Crash, livro de Neil Stephenson. Então,
+      metaverso seria uma espécie de realidade paralela, que só conseguimos
+      entrar usando a tecnologia.
     badge:
       type: Badge
       label: A festa começou
