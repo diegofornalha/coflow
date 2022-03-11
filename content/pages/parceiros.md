@@ -177,7 +177,7 @@ sections:
     variant: variant-a
     actions:
       - type: Button
-        label: View All
+        label: Ver todos os Artigos
         altText: View All Posts
         url: /blog
         style: primary
