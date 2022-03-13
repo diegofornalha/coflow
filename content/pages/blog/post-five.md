@@ -9,7 +9,7 @@ excerpt: >-
 featuredImage:
   type: ImageBlock
   url: /images/segurança.gif
-  altText: Post thumbnail image
+  altText: Crypto & Security (Criptografia e segurança)
 bottomSections:
   - elementId: ''
     variant: variant-c
