@@ -60,9 +60,8 @@ metaTitle: Ethereum
 
 ## Por que a ETH está chamando a atenção?
 
-*   **Próximas atualizações.** Para melhorar a escalabilidade,** **A Ethereum mudará a forma como protege sua rede ainda este ano, do processo que o Bitcoin usa (prova de trabalho) para um que usa significativamente menos energia (prova de participação).
+*   **Próximas atualizações.** Para melhorar a escalabilidade,\*\* \*\*A Ethereum mudará a forma como protege sua rede ainda este ano, do processo que o Bitcoin usa (prova de trabalho) para um que usa significativamente menos energia (prova de participação).
 
 *   **Mania NFT.** Da arte ao imobiliário, esses ativos digitais se tornaram populares. Muitas das maiores marcas do mundo criaram estratégias de NFT para atender à crescente demanda.
 
 *   **Interesse institucional** . Investidores e instituições de renome investiram no Ethereum, reconhecendo seu potencial como plataforma para aplicativos descentralizados.
-
