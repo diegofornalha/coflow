@@ -3,9 +3,7 @@ title: Tudo sobre Blockchain
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hugh-saturation.json
-excerpt: >-
-  Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem
-  semper. Donec sed facilisis nibh.
+excerpt: Tudo sobre Blockchain
 featuredImage:
   type: ImageBlock
   url: /images/conectado na blockchain.gif
