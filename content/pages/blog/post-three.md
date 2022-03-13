@@ -39,6 +39,7 @@ bottomSections:
         justifyContent: center
     type: RecentPostsSection
 metaTitle: Ethereum
+metaDescription: "Ethereum é uma \"máquina virtual\" que pode executar\_aplicativos descentralizados (dApps)\_,"
 ---
 ## O que é ETH?
 
