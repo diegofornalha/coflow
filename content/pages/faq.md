@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - colors: colors-a
     elementId: ''
-    title: Need Answers?
+    title: Perguntas frequentes sobre a blockchain
     items:
       - question: Qual a diferença entre blockchain e Bitcoin?
         answer: >
