@@ -37,13 +37,39 @@ bottomSections:
         justifyContent: center
     type: RecentPostsSection
 ---
+# Ethereum 2.0 vem aí, e especialistas estão otimistas com a atualização; entenda!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+A mudança da rede [**Ethereum**](https://www.moneytimes.com.br/tag/ethereum-noticias/) ([**ETH**](https://www.moneytimes.com.br/cotacao/ethereum-us/)) para o protocolo de consenso proof-of-stake (PoS) parece estar em um de seus últimos estágios.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+Com a atualização da rede para sua versão ETH 2.0 — [**expressão aposentada pela Ethereum Foundation**](https://www.moneytimes.com.br/ethereum-foundation-acaba-com-eth-2-0-e-substitui-por-camada-de-consenso/) em favor do termo “camada de consenso” — as mudanças na taxa de gás poderão impulsionar o preço da [**criptomoeda**](https://www.moneytimes.com.br/tag/criptomoedas/), dizem especialistas.
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+Segundo o Business Insider, o proof-of-stake já está funcionando nas redes de teste (“testnets”), mas deverá levar alguns meses até seu lançamento final, disse o cofundador da Ethereum, Vitalik Buterin, no evento ETHDenver, em fevereiro.
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+A transição de proof-of-work (PoW) para proof-of-stake promete tornar a rede mais rápida, mais segura e com menor congestionamento e consumo energético.
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+Um outro fator positivo, aguardado por entusiastas da rede, é a possível redução de custos de transação e fornecimento — o que poderá elevar o preço do ETH, segundo analistas.
+
+O analista de mercado da GlobalBlock, Marcus Sotiriou, disse que “espera que a mudança da Ethereum para proof-of-stake tenha um impacto positivo no preço do ETH a longo prazo”.
+
+Segundo ele, isso pode acontecer devido à redução dramática nos custos de transação na rede Ethereum, o que é, atualmente, sua principal desvantagem.
+
+[***Ethereum 2.0 deverá chegar em 2022,
+mas o que pode acontecer com o preço do ETH?***](https://www.moneytimes.com.br/ethereum-2-0-devera-chegar-em-2022-mas-o-que-pode-acontecer-com-o-preco-do-eth/)
+
+A última atualização tida como altamente relevante para a Ethereum aconteceu em agosto do ano passado.
+
+Segundo o Business Insider, a bifurcação (“hard fork”) London tornou os custos da rede mais previsíveis, ao estabelecer uma taxa mínima para as transações, calculada por meio de algoritmos conforme a demanda.
+
+Após a atualização London, as taxas de gás são “queimadas”, ou seja, são enviadas a uma carteira que não pode ser acessada, removendo o valor da criptomoeda de circulação.
+
+Isso faz com que a quantidade de ether em circulação seja reduzida, o que pode, potencialmente, elevar o preço da criptomoeda, devido à redução no fornecimento.
+
+Para a fundadora da startup de finanças descentralizadas ([**DeFi**](https://www.moneytimes.com.br/tag/defi/)) AlianceBlock, Amber Ghaddar, a fusão (“The Merge”) da rede principal da Ethereum com Beacon Chain irá aumentar a queima de [**tokens**](https://www.moneytimes.com.br/tag/token/).
+
+Segundo ela, “junto com a queima de tokens, The Merge, que irá reduzir a emissão de ETH por bloco pela metade, irá pressionar o fornecimento” de ether.
+
+A redução do congestionamento da Ethereum também deverá elevar o preço da criptomoeda, visto que “o número de transações está altamente ligado às taxas de gás”, disse Ghaddar.
+
+“Se esperamos que o preço da taxa de gás caia, podemos esperar um aumento em transações menores, o que aumenta a utilidade da rede e eleva os preços”, acrescentou.
+
+No entanto, segundo a fundadora da AlianceBlock, engana-se quem acredita que o efeito positivo no preço do ETH será imediato. “Podemos esperar que o lançamento da ETH 2.0 seja neutro a curto prazo, mas de alta a longo prazo”, disse Ghaddar.
