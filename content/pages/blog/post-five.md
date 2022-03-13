@@ -2,10 +2,7 @@
 title: "Crypto & Security\_(Criptografia e segurança)"
 date: '2022-03-13'
 author: content/data/team/dianne-ameter.json
-excerpt: >-
-  Ab voluptates quae et voluptas autem ut quod error non nobis earum. Qui
-  tempora corporis sit libero corporis eos aliquam temporibus qui consectetur
-  quia ut itaque iusto eos enim praesentium.
+excerpt: "Crypto & Security\_(Criptografia e segurança)"
 featuredImage:
   type: ImageBlock
   url: /images/segurança.gif
