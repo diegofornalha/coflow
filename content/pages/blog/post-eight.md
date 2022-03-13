@@ -7,7 +7,7 @@ excerpt: >-
   voluptatibus non doloribus officiis qui harum eaque.
 featuredImage:
   type: ImageBlock
-  url: /images/post-8.jpg
+  url: /images/2FA.gif
   altText: Function of design image
 bottomSections:
   - elementId: ''
