@@ -7,11 +7,12 @@ sections:
     title: Need Answers?
     items:
       - question: Qual a diferença entre blockchain e Bitcoin?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
+        answer: >
+          A bitcoin é uma moeda digital não regulamentada. A bitcoin usa a
+          tecnologia blockchain como seu livro-razão de transação.
+
+
+          Esse vídeo ilustra a distinção entre os dois.
       - question: How is this different from what we have today?
         answer: >-
           At the office, working together is often a distruction, on remote, it
