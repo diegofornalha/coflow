@@ -281,7 +281,7 @@ sections:
     actions:
       - type: Button
         label: Primeira Aula Gratuita Para o Seu Time
-        url: 'https://www.stackbit.com/'
+        url: 'https://wa.me/552124915249?text=Quero+saber+mais%21'
         style: primary
         elementId: hero-main-button
     media:
