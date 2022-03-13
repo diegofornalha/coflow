@@ -2,10 +2,7 @@
 title: Hora de diversificar seu portfólio
 date: '2020-01-15'
 author: content/data/team/hilary-ouse.json
-excerpt: >-
-  Vel repellat dolores ut unde voluptatum ut optio voluptates est aliquid. Ut
-  earum corporis id Quis esse est galisum officiis accusantium enim et
-  asperiores dolore.
+excerpt: Hora de diversificar seu portfólio
 featuredImage:
   type: ImageBlock
   url: /images/money.gif
