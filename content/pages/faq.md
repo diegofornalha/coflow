@@ -70,12 +70,6 @@ sections:
           preferência](https://www.ibm.com/blockchain/resources/cloud-deployment-infographic)
       - question: Preciso de informações mais detalhadas. Onde as encontro?
         answer: "Para obter mais detalhes sobre como uma rede blockchain opera e sobre como é possível usá-la, veja a\_*Introdução a livros-razão distribuídos.*\n\n[→\_Saiba mais com o tutorial de blockchain do IBM Developer](https://developer.ibm.com/depmodels/cloud/)\n\nConheça os recursos da IBM Blockchain Platform, a única plataforma de blockchain totalmente integrada e pronta para empresas, desenvolvida para ajudá-lo a acelerar o desenvolvimento, o controle e a operação de uma rede de negócios multi-institucionais.\n\n[→ Registre-se para fazer o download do artigo técnico sobre a IBM Blockchain Platform](https://www.ibm.com/account/reg/signup?formid=urx-20950)\n\nObtenha detalhes sobre o Hyperledger Fabric e descubra o que ele tem de exclusivo, por que ele é relevante para as redes de negócios e como começar a utilizá-lo.\n\n[→ Visite a página do Hyperledger no IBM Developer](https://developer.ibm.com/technologies/blockchain/)\n\nO guia de iniciação rápida para desenvolvedores explica como desenvolver uma rede blockchain inicial e iniciar a codificação com o IBM Blockchain Platform Starter Plan.\n\n[→ Veja o guia prático para desenvolvedores](https://developer.ibm.com/technologies/blockchain/tutorials/cl-ibm-blockchain-101-quick-start-guide-for-developers-bluemix-trs/)\n"
-      - question: How is this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
     styles:
       self:
         height: auto
