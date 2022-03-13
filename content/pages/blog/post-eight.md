@@ -34,6 +34,7 @@ bottomSections:
         justifyContent: center
     type: RecentPostsSection
 layout: PostLayout
+excerpt: O que é autenticação de dois fatores (2FA)?
 ---
 A autenticação de dois fatores, ou 2FA, é uma medida de segurança que você pode tomar para garantir que você seja o único que pode entrar em suas contas pessoais. 
 
