@@ -39,9 +39,18 @@ bottomSections:
     type: RecentPostsSection
 layout: PostLayout
 ---
+A autenticação de dois fatores, ou 2FA, é uma medida de segurança que você pode tomar para garantir que você seja o único que pode entrar em suas contas pessoais. 
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+Mesmo que um hacker roube sua senha, a 2FA pode proteger seus fundos solicitando uma camada adicional de informações antes de você entrar, como uma sequência de números gerada aleatoriamente ou um código de login temporário. 
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
+Oferecemos três tipos diferentes de 2FA, do menos ao mais seguro: Mensagem de Texto (SMS Aplicativo autenticador Chave de segurança de hardware Como habilitar o 2FAO método 2FA menos seguro envia um código de verificação para seu telefone quando você tenta fazer login.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+Nesse método mais seguro, um aplicativo como Authy ou Google Authenticator gerará um código de verificação aleatório de seis dígitos para confirmar que é você que está fazendo login.A maneira mais segura de habilitar 2FA, uma chave de segurança de hardware é um dispositivo físico que se conecta à sua porta USB e gera assinaturas criptográficas para proteger sua conta contra ataques de phishing.
+
+Recomendamos que todos os usuários usem 2FA para proteger suas contas ao máximo.
+
+
+
+
+
+
