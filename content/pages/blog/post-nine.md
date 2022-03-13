@@ -5,7 +5,7 @@ author: content/data/team/dianne-ameter.json
 excerpt: CELO e cUSD estão prontos para negociação
 featuredImage:
   type: ImageBlock
-  url: /images/post-9.jpg
+  url: /images/money3.gif
   altText: Function of design image
 bottomSections:
   - elementId: ''
