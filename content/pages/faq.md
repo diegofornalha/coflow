@@ -8,7 +8,8 @@ sections:
     items:
       - question: Qual a diferença entre blockchain e Bitcoin?
         answer: "A bitcoin é uma moeda digital não regulamentada. A bitcoin usa a tecnologia blockchain como seu livro-razão de transação.\n\nEsse vídeo ilustra a distinção entre os dois. \n\n[Assista para saber mais\_(02:42)](https://mediacenter.ibm.com/media/1\\_8n9g1v7r)\n"
-      - question: How is this different from what we have today?
+      - question: |
+          Como o IBM Blockchain Platform e o Hyperledger estão relacionados?
         answer: >-
           At the office, working together is often a distruction, on remote, it
           could be motivation, At the office, working together is often a
