@@ -8,7 +8,7 @@ excerpt: >-
 featuredImage:
   type: ImageBlock
   url: /images/2FA.gif
-  altText: /blog/page/2/
+  altText: 2fa
 bottomSections:
   - elementId: ''
     variant: variant-c
