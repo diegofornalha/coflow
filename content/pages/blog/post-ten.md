@@ -1,8 +1,11 @@
 ---
-title: The Most Creative Ways Our Customers Use Our Products
+title: Tezos está pronto para negociação
 date: '2020-12-20'
 author: content/data/team/hugh-saturation.json
-excerpt: Et libero doloribus qui consequatur ratione cum rerum dolor sit dolor laborum aut dignissimos tempora aut molestiae beatae in voluptatem neque. Et illo aspernatur.
+excerpt: >-
+  Et libero doloribus qui consequatur ratione cum rerum dolor sit dolor laborum
+  aut dignissimos tempora aut molestiae beatae in voluptatem neque. Et illo
+  aspernatur.
 featuredImage:
   type: ImageBlock
   url: /images/post-10.jpg
@@ -17,8 +20,16 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-56', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         textAlign: center
