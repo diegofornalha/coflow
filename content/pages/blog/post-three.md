@@ -40,6 +40,7 @@ bottomSections:
     type: RecentPostsSection
 metaTitle: Ethereum
 metaDescription: "Ethereum é uma \"máquina virtual\" que pode executar\_aplicativos descentralizados (dApps)\_,"
+addTitleSuffix: true
 ---
 ## O que é ETH?
 
