@@ -40,13 +40,14 @@ bottomSections:
     type: RecentPostsSection
 layout: PostLayout
 ---
+O que é Tezos?
 
-Donec neque lorem , sodales non fermentum et, aliquam quis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt justo eu ante ultrices posuere. Duis cursus at massa ac tempus. Morbi sit amet mi sit amet lorem ullamcorper feugiat ac et dolor. Nullam rhoncus urna tincidunt odio ultricies, at dapibus felis facilisis. Ut condimentum nulla eget feugiat finibus. Suspendisse sit amet purus a eros dignissim commodo ut a erat.
+Tezos é uma blockchain de camada 1 projetada para executar contratos inteligentes e aplicativos descentralizados. XTZ é a criptomoeda nativa da rede. É usado para pagar por transações, para proteger a rede por meio de “baking” (assinatura e publicação de blocos no blockchain Tezos) e para governança.
 
-Phasellus commodo dolor sit amet, consectetur adipiscing elit. Nam a finibus magna. Sed et pulvinar dolor. Suspendisse vitae iaculis lacus. Proin vulputate, leo eget pulvinar faucibus, felis est condimentum lorem, in rhoncus neque felis ac leo. Duis felis lectus, ultrices id dolor vel, tincidunt tristique nunc. Nullam quis orci magna. Proin eget nunc et dolor hendrerit eleifend. Praesent a vehicula justo, quis convallis lacus. Phasellus porttitor, turpis vel placerat condimentum, urna felis volutpat ligula, et ultricies arcu mi ac nisl. Cras id consectetur ligula, et mollis odio. Aenean erat dui, congue vitae nisi a, aliquet lobortis eros.
+O que torna Tezos único?
 
-> The beauty of type lies in its utility, prettiness without readability serves neither author nor reader. - James Felici
+Tezos é projetado para evoluir. Ao contrário de outros protocolos, a comunidade pode atualizar seus recursos sem a necessidade de um hard fork.
 
-Sed augue lorem, porta nec lorem et, luctus egestas nunc. Sed in tellus at enim commodo pharetra. Mauris nisi ipsum, auctor nec justo non, lobortis ullamcorper magna. Pellentesque posuere posuere dolor, quis egestas est ultrices id. Cras at urna lectus. Curabitur in placerat ligula. Phasellus pharetra scelerisque lectus, id sagittis lorem pretium eget. Phasellus commodo nunc ante, nec commodo urna iaculis eu. Pellentesque euismod et ante quis vestibulum. Ut quis sapien nisi. Sed interdum sit amet sem et vestibulum. Maecenas tempor dictum leo, quis rutrum purus tincidunt vitae. Fusce vel turpis risus. Donec congue accumsan tempus. Nunc nec elit magna. Aenean luctus auctor ligula at lacinia.
+Por que Tezos está recebendo atenção?
 
-Donec neque lorem, sodales non fermentum et, aliquam quis erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt justo eu ante ultrices posuere. Duis cursus at massa ac tempus. Morbi sit amet mi sit amet lorem ullamcorper feugiat ac et dolor. Nullam rhoncus urna tincidunt odio ultricies, at dapibus felis facilisis. Ut condimentum nulla eget feugiat finibus. Suspendisse sit amet purus a eros dignissim commodo ut a erat. Maecenas pretium velit faucibus, porttitor lacus eu, eleifend sapien. In hac habitasse platea dictumst. Pellentesque nisi nisl, consectetur a accumsan sit amet, finibus vel nibh. Vivamus aliquet urna non turpis vehicula maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Tezos é uma das provas originais de blockchains de participação, o que significa que sua rede requer menos energia para proteger e sustentar. Desde o lançamento em 2018, ele foi utilizado para centenas de projetos, registrou milhões de transações e atraiu uma comunidade global vibrante.
