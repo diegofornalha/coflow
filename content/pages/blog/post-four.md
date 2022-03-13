@@ -3,9 +3,7 @@ title: Entenda um pouco mais a proposta do bitcoin
 layout: PostLayout
 date: '2022-01-03'
 author: content/data/team/desmond-eagle.json
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+excerpt: Entenda um pouco mais a proposta do bitcoin
 featuredImage:
   type: ImageBlock
   url: /images/crypto.gif
