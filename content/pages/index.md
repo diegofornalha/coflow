@@ -16,7 +16,7 @@ sections:
         style: primary
       - type: Link
         label: turma aberta de solidity (smart CONTRACTS)
-        url: /
+        url: 'https://wa.me/552124915249?text=Quero+saber+mais%21'
         showIcon: true
         icon: arrowRight
         iconPosition: right
