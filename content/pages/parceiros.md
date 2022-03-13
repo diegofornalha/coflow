@@ -138,7 +138,7 @@ sections:
     actions:
       - type: Button
         label: Seja um Parceiro
-        url: /
+        url: 'https://wa.me/552124915249?text=Quero+saber+mais%21'
         style: primary
     media:
       type: ImageBlock
