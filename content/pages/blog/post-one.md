@@ -37,8 +37,6 @@ bottomSections:
         justifyContent: center
     type: RecentPostsSection
 ---
-# Ethereum 2.0 vem aí, e especialistas estão otimistas com a atualização; entenda!
-
 A mudança da rede [**Ethereum**](https://www.moneytimes.com.br/tag/ethereum-noticias/) ([**ETH**](https://www.moneytimes.com.br/cotacao/ethereum-us/)) para o protocolo de consenso proof-of-stake (PoS) parece estar em um de seus últimos estágios.
 
 Com a atualização da rede para sua versão ETH 2.0 — [**expressão aposentada pela Ethereum Foundation**](https://www.moneytimes.com.br/ethereum-foundation-acaba-com-eth-2-0-e-substitui-por-camada-de-consenso/) em favor do termo “camada de consenso” — as mudanças na taxa de gás poderão impulsionar o preço da [**criptomoeda**](https://www.moneytimes.com.br/tag/criptomoedas/), dizem especialistas.
