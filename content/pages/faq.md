@@ -28,7 +28,7 @@ sections:
 
           [Saiba mais sobre o IBM Blockchain
           Platform](https://www.ibm.com/br-pt/blockchain/platform)
-      - question: How is this different from what we have today?
+      - question: O que são os contratos inteligentes?
         answer: >-
           At the office, working together is often a distruction, on remote, it
           could be motivation, At the office, working together is often a
