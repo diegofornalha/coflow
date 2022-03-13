@@ -1,10 +1,6 @@
 ---
 title: O que é autenticação de dois fatores (2FA)?
 date: '2020-09-26'
-excerpt: >-
-  Ut expedita iure et iste placeat id consequatur veritatis et saepe voluptas
-  non voluptas nesciunt sed voluptate rerum. Ea deleniti unde et exercitationem
-  voluptatibus non doloribus officiis qui harum eaque.
 featuredImage:
   type: ImageBlock
   url: /images/2FA.gif
