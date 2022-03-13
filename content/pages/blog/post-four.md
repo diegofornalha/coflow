@@ -39,8 +39,6 @@ bottomSections:
         justifyContent: center
     type: RecentPostsSection
 ---
-# Resumo Blockchain: Bitcoin (BTC)
-
 ## O que é BTC?
 
 • Bitcoin é dinheiro digital que as pessoas podem trocar peer-to-peer sem precisar de um terceiro confiável, ou "intermediário".
@@ -68,4 +66,3 @@ Bitcoin está recebendo atenção exagerada devido a:
 • **Documento Técnico.** Satoshi Nakamoto, o pseudônimo do ainda desconhecido inventor do Bitcoin, publicou o white paper do Bitcoin em outubro de 2008.
 • **Compra de pizza.** Em 22 de maio de 2010, ocorreu a primeira transação de varejo de duas pizzas por 10.000 BTC (mais de US$ 400 milhões hoje).
 • **Moeda legal.** Em 7 de setembro de 2021, El Salvador se tornou o primeiro país a aceitar bitcoin como moeda legal.
-
