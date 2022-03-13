@@ -68,7 +68,7 @@ sections:
 
           [Infográfico: Implemente na cloud de sua
           preferência](https://www.ibm.com/blockchain/resources/cloud-deployment-infographic)
-      - question: How is this different from what we have today?
+      - question: Preciso de informações mais detalhadas. Onde as encontro?
         answer: >-
           At the office, working together is often a distruction, on remote, it
           could be motivation, At the office, working together is often a
