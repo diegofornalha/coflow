@@ -38,6 +38,7 @@ bottomSections:
       actions:
         justifyContent: center
     type: RecentPostsSection
+metaTitle: Ethereum
 ---
 ## O que é ETH?
 
