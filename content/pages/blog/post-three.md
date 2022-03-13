@@ -44,7 +44,7 @@ addTitleSuffix: true
 socialImage: /images/Blockchain-Ethereum.jpg
 metaTags:
   - property: 'og:title'
-    content: ''
+    content: Guia completo rede Ethereum
 ---
 ## O que é ETH?
 
