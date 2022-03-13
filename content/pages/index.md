@@ -8,7 +8,7 @@ sections:
     title: Seu time vai ser fluente na Web3?
     subtitle: >-
       Desenvolva uma poc do zero ainda nesse quarter, dê os primeiros passos em
-      direção junto com seu time.
+      direção ao futuro com seu time.
     actions:
       - type: Button
         label: 'Primeira Aula Gratuita Para o Seu Time '
