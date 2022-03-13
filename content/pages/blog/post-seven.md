@@ -1,8 +1,11 @@
 ---
-title: A Day in the Life of Our Development Team
+title: Hora de diversificar seu portfólio
 date: '2020-01-15'
 author: content/data/team/hilary-ouse.json
-excerpt: Vel repellat dolores ut unde voluptatum ut optio voluptates est aliquid. Ut earum corporis id Quis esse est galisum officiis accusantium enim et asperiores dolore.
+excerpt: >-
+  Vel repellat dolores ut unde voluptatum ut optio voluptates est aliquid. Ut
+  earum corporis id Quis esse est galisum officiis accusantium enim et
+  asperiores dolore.
 featuredImage:
   type: ImageBlock
   url: /images/post-7.jpg
@@ -17,8 +20,16 @@ bottomSections:
       self:
         height: auto
         width: wide
-        margin: ['mt-0', 'mb-0', 'ml-0', 'mr-0']
-        padding: ['pt-12', 'pb-56', 'pr-4', 'pl-4']
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
         justifyContent: center
       title:
         textAlign: center
