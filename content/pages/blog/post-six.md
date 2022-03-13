@@ -40,13 +40,28 @@ bottomSections:
     type: RecentPostsSection
 layout: PostLayout
 ---
+As criptomoedas foram projetadas para dar a você controle total sobre seus fundos, permitindo que você envie, receba e armazene valor sem depender de intermediários de terceiros.
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+Mas se você armazena sua criptomoeda em uma plataforma ou exchange centralizada, quem tecnicamente controla sua criptomoeda?
 
-![](/images/work-book-cover-2.jpg)
+A resposta é que a plataforma ou exchange centralizada – bem como um banco tradicional – controla tecnicamente os fundos mantidos em sua conta.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus.
+Digamos que você mantenha sua criptomoeda em uma exchange. A exchange armazena sua criptomoeda em um endereço mantido pela exchange, não você. Se a exchange precisar desabilitar saques ou tiver outro problema sério, talvez você não tenha acesso total à sua criptomoeda. Ao longo da história da criptomoeda, existem até alguns exemplos de plataformas centralizadas sendo hackeadas, colocando os fundos dos clientes em risco.
 
-![](/images/work-book-cover-3.jpg)
+Dito de outra forma, quando você guarda sua criptomoeda com outra pessoa, você não está no controle total.
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+Então, como você obtém controle total sobre sua criptomoeda?
+
+Com uma carteira de chave privada.
+
+Também conhecida como carteira sem custódia ou autocustódia, essa tecnologia coloca você no controle de suas chaves privadas, em vez de confiá-las a terceiros. Em vez de confiar em uma bolsa ou corretora, você a mantém.
+
+Essas chaves privadas são o que lhe dá controle sobre sua criptografia. Como diz o ditado: “Não são suas chaves, não são suas criptomoedas”.
+
+Existem desvantagens?
+
+Com o poder vem a responsabilidade. Se você conceder a alguém acesso às suas chaves privadas ou a frase de recuperação secreta da sua carteira cair nas mãos erradas, você corre o risco de perder sua criptografia.
+
+Quer sua própria carteira de chave privada?
+
+A carteira Blockchain.com oferece a opção de ter controle total sobre suas criptomoedas em carteiras de chave privada para bitcoin, ethereum e dezenas de outros tokens.
