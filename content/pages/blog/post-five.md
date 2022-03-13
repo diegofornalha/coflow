@@ -8,7 +8,7 @@ excerpt: >-
   quia ut itaque iusto eos enim praesentium.
 featuredImage:
   type: ImageBlock
-  url: /images/post-5.jpg
+  url: /images/segurança.gif
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
