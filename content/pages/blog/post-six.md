@@ -5,7 +5,7 @@ author: content/data/team/hugh-saturation.json
 excerpt: Você controla sua criptomoeda?
 featuredImage:
   type: ImageBlock
-  url: /images/post-6.jpg
+  url: /images/controlador.gif
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
