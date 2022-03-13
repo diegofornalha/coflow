@@ -10,6 +10,7 @@ featuredImage:
   type: ImageBlock
   url: /images/segurança.gif
   altText: Crypto & Security (Criptografia e segurança)
+  caption: Security
 bottomSections:
   - elementId: ''
     variant: variant-c
