@@ -41,6 +41,7 @@ bottomSections:
 metaTitle: Ethereum
 metaDescription: "Ethereum é uma \"máquina virtual\" que pode executar\_aplicativos descentralizados (dApps)\_,"
 addTitleSuffix: true
+socialImage: /images/blockchain.png
 ---
 ## O que é ETH?
 
