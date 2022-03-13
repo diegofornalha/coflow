@@ -29,11 +29,29 @@ sections:
           [Saiba mais sobre o IBM Blockchain
           Platform](https://www.ibm.com/br-pt/blockchain/platform)
       - question: O que são os contratos inteligentes?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
+        answer: >
+          Contratos inteligentes são parte integral da tecnologia blockchain.
+          Eles executam automaticamente transações e registram informações no
+          livro-razão sem intervenção humana.
+
+
+          As condições de contratos inteligentes são mutuamente acordadas por
+          membros da rede. Elas são um componente principal para estabelecer a
+          confiança e a eficiência entre as partes.
+
+
+          Contratos inteligentes eliminam essencialmente toda a papelada,
+          simplificando todo o processo e economizando tempo e dinheiro.
+
+
+          Para ajudá-lo a saber mais sobre contratos inteligentes, Nigel Gopie,
+          PhD, o IBM Food Trust Global Marketing Leader IBM Blockchain, escreveu
+          uma postagem de blog que explica contratos inteligentes com mais
+          detalhes.
+
+
+          [Veja o
+          post](https://www.ibm.com/blogs/blockchain/2018/07/what-are-smart-contracts-on-blockchain)
       - question: How is this different from what we have today?
         answer: >-
           At the office, working together is often a distruction, on remote, it
