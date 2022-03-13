@@ -5,7 +5,7 @@ author: content/data/team/hugh-saturation.json
 excerpt: Tezos está pronto para negociação
 featuredImage:
   type: ImageBlock
-  url: /images/post-10.jpg
+  url: /images/money2.gif
   altText: Function of design image
 bottomSections:
   - elementId: ''
