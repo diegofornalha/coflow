@@ -2,10 +2,7 @@
 title: Tezos está pronto para negociação
 date: '2020-12-20'
 author: content/data/team/hugh-saturation.json
-excerpt: >-
-  Et libero doloribus qui consequatur ratione cum rerum dolor sit dolor laborum
-  aut dignissimos tempora aut molestiae beatae in voluptatem neque. Et illo
-  aspernatur.
+excerpt: Tezos está pronto para negociação
 featuredImage:
   type: ImageBlock
   url: /images/post-10.jpg
