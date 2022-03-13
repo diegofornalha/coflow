@@ -54,7 +54,7 @@ sections:
           post](https://www.ibm.com/blogs/blockchain/2018/07/what-are-smart-contracts-on-blockchain)
       - question: Como a blockchain pode impactar um mercado inteiro?
         answer: "A blockchain permite que as empresas repensem a maneira como funcionam.\n\nNo mercado de diamantes, por exemplo, cada parte pode acessar:\n\n*   Fotos de alta resolução\n\n*   Registros de pagamento imutáveis\n\n*   Certificados de autenticidade e muito mais.\n\n[Assista para saber mais\_(02:38)](https://mediacenter.ibm.com/media/1\\_jpxptnl0)\n"
-      - question: How is this different from what we have today?
+      - question: É possível implementar em qualquer cloud desejada?
         answer: >-
           At the office, working together is often a distruction, on remote, it
           could be motivation, At the office, working together is often a
