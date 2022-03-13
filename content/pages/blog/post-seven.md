@@ -8,7 +8,7 @@ excerpt: >-
   asperiores dolore.
 featuredImage:
   type: ImageBlock
-  url: /images/post-7.jpg
+  url: /images/money.gif
   altText: Function of design image
 bottomSections:
   - elementId: ''
