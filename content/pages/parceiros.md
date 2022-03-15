@@ -90,7 +90,7 @@ sections:
         caption: Xbox
         altText: Xbox
       - type: ImageBlock
-        url: /images/skype.svg
+        url: /images/logo_Cosmos.png
         caption: Apple
         altText: Apple
       - type: ImageBlock
