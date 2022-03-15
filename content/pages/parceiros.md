@@ -82,7 +82,7 @@ sections:
         caption: PlayStation
         altText: PlayStation
       - type: ImageBlock
-        url: /images/gatsby.svg
+        url: /images/logo_BSC.png
         caption: Gatsby
         altText: Gatsby
       - type: ImageBlock
