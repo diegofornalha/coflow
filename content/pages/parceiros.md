@@ -70,7 +70,7 @@ sections:
     title: Outros Clientes e Parceiros
     images:
       - type: ImageBlock
-        url: /images/apple.svg
+        url: /images/logo_polygon.png
         caption: Apple
         altText: Apple
       - type: ImageBlock
