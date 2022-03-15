@@ -94,7 +94,7 @@ sections:
         caption: Apple
         altText: Apple
       - type: ImageBlock
-        url: /images/zcool.svg
+        url: /images/logo_IRIS.png
         caption: ZCOOL
         altText: ZCOOL
     columns: 7
