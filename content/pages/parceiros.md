@@ -67,7 +67,7 @@ sections:
         justifyContent: flex-start
   - type: MediaGallerySection
     colors: colors-h
-    title: Outros Clientes e Parceiros
+    title: Trabalhamos com diversas Blockchains
     images:
       - type: ImageBlock
         url: /images/logo_polygon.png
