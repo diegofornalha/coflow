@@ -78,7 +78,7 @@ sections:
         caption: Google Play
         altText: Google Play
       - type: ImageBlock
-        url: /images/playstation.svg
+        url: /images/logo_DOT.png
         caption: PlayStation
         altText: PlayStation
       - type: ImageBlock
