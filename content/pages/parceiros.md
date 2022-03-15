@@ -74,7 +74,7 @@ sections:
         caption: Apple
         altText: Apple
       - type: ImageBlock
-        url: /images/google-play.svg
+        url: /images/logo_ETH.png
         caption: Google Play
         altText: Google Play
       - type: ImageBlock
