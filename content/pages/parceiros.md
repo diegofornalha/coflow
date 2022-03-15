@@ -86,7 +86,7 @@ sections:
         caption: Gatsby
         altText: Gatsby
       - type: ImageBlock
-        url: /images/xbox.svg
+        url: /images/logo_flow.png
         caption: Xbox
         altText: Xbox
       - type: ImageBlock
