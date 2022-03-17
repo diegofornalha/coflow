@@ -27,7 +27,7 @@ bottomSections: []
 layout: PostLayout
 author: content/data/team/hugh-saturation.json
 ---
-# \*\* Primeiro token Learn-to-earn do Brasil\*\*
+# Primeiro token Learn-to-earn do Brasil
 
 ![](/images/melkcoin.png)
 
