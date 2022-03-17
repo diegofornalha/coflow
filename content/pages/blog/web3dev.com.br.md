@@ -4,7 +4,7 @@ metaDescription: >-
   O experimento de $MELK tem por objetivo trazer milhares de pessoas para o novo
   mundo web3.
 addTitleSuffix: true
-socialImage: null
+socialImage: /images/LearnEarn.webp
 metaTags:
   - property: 'og:title'
     content: ''
