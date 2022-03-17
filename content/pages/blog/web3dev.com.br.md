@@ -7,7 +7,11 @@ addTitleSuffix: true
 socialImage: /images/LearnEarn.webp
 metaTags:
   - property: 'og:title'
-    content: ''
+    content: >-
+      Ganhe criptomoeda enquanto aprende sobre criptomoeda
+
+      Descubra como funcionam criptomoedas específicas — e recebe um pouco de
+      cada criptomoeda para experimentar por si mesmo.
 title: Web3 Dev Brasil
 date: '2022-03-17'
 excerpt: >-
