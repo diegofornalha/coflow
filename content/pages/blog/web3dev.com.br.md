@@ -13,7 +13,7 @@ featuredImage:
   type: ImageBlock
   url: /images/web3dev.png
   altText: logo web3dev.com.br
-  caption: ''
+  caption: web3dev
 bottomSections: []
 layout: PostLayout
 author: content/data/team/hugh-saturation.json
