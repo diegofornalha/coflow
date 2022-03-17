@@ -7,8 +7,8 @@ metaTags: []
 title: Web3 Dev Brasil
 date: '2022-03-17'
 excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  Comunidade de pessoas desenvolvedoras interessadas em programação nas
+  tecnologias web3.
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
