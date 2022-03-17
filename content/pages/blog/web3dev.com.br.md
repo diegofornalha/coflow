@@ -5,7 +5,9 @@ metaDescription: >-
   mundo web3.
 addTitleSuffix: true
 socialImage: null
-metaTags: []
+metaTags:
+  - property: 'og:title'
+    content: ''
 title: Web3 Dev Brasil
 date: '2022-03-17'
 excerpt: >-
