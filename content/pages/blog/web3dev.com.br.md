@@ -12,7 +12,7 @@ excerpt: >-
 featuredImage:
   type: ImageBlock
   url: /images/web3dev.png
-  altText: 'logo https://www.web3dev.com.br/'
+  altText: logo web3dev.com.br/
   caption: ''
 bottomSections: []
 layout: PostLayout
