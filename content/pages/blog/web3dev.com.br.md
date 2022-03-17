@@ -1,6 +1,8 @@
 ---
 metaTitle: ' Primeiro token Learn-to-earn do Brasil'
-metaDescription: null
+metaDescription: >-
+  O experimento de $MELK tem por objetivo trazer milhares de pessoas para o novo
+  mundo web3.
 addTitleSuffix: true
 socialImage: null
 metaTags: []
