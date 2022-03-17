@@ -27,7 +27,9 @@ bottomSections: []
 layout: PostLayout
 author: content/data/team/hugh-saturation.json
 ---
-# ** Primeiro token Learn-to-earn do Brasil**
+# \*\* Primeiro token Learn-to-earn do Brasil\*\*
+
+![](/images/melkcoin.png)
 
 Participei de um experimento muito legal em *Learn-to-earn*. Um novo conceito em que você aprende e ganha enquanto aprende.
 
