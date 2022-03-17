@@ -1,5 +1,5 @@
 ---
-metaTitle: null
+metaTitle: ' Primeiro token Learn-to-earn do Brasil'
 metaDescription: null
 addTitleSuffix: true
 socialImage: null
