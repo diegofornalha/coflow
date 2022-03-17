@@ -12,9 +12,7 @@ excerpt: >-
 featuredImage:
   type: ImageBlock
   url: /images/web3dev.png
-  altText: >-
-    Comunidade de pessoas desenvolvedoras interessadas em programação nas
-    tecnologias web3.
+  altText: 'logo '
   caption: ''
 bottomSections: []
 layout: PostLayout
