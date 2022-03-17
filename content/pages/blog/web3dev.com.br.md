@@ -39,3 +39,5 @@ Todo mundo que participar vai ganhar o token $MELK de graça se aprender tudo di
 
 Mais informações sobre como tudo vai funcionar aqui:
 <https://melk.gitbook.io/aprenda-e-ganhe/>
+
+Site: <https://www.web3dev.com.br/>
