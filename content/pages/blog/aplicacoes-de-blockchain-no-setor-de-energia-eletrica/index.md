@@ -9,7 +9,7 @@ date: '2020-01-01'
 excerpt: Aplicações no setor de energia elétrica
 featuredImage:
   type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
+  url: /images/Blockchain-Ethereum.jpg
   altText: Post thumbnail image
   caption: ''
 bottomSections: []
