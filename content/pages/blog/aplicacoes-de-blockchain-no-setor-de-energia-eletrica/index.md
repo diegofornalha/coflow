@@ -6,9 +6,7 @@ socialImage: null
 metaTags: []
 title: Aplicações de blockchain no setor de energia elétrica
 date: '2020-01-01'
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+excerpt: Aplicações no setor de energia elétrica
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
