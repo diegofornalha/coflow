@@ -2,7 +2,7 @@
 metaTitle: null
 metaDescription: null
 addTitleSuffix: true
-socialImage: null
+socialImage: /images/Captura de tela de 2022-03-21 18-35-32.png
 metaTags: []
 title: Aplicações de blockchain no setor de energia elétrica
 date: '2020-01-01'
