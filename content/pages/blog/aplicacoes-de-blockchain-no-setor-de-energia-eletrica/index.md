@@ -14,6 +14,7 @@ featuredImage:
   caption: ''
 bottomSections: []
 layout: PostLayout
+author: content/data/team/hugh-saturation.json
 ---
 A tecnologia Blockchain também tem sido aplicada ao setor de energia elétrica, explorando as características da tecnologia para criar novos modelos de negócios ou mesmo para melhorar a eficiência de processos atuais. Segue exemplo de 5 aplicações da tecnologia Blockchain e seus casos de uso no setor de energia.
 
