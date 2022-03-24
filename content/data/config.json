@@ -30,7 +30,7 @@
             {
                 "type": "Button",
                 "label": "PARCEIROS",
-                "url": "/parceiros",
+                "url": "https://coflow.com.br/parceiros",
                 "altText": "parceiros",
                 "style": "primary"
             }
