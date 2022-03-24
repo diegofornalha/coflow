@@ -22,7 +22,7 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/realidade virtual.gif
+      url: /images/favicon.webp
       altText: Metaverse
       caption: metaverse
     styles:
