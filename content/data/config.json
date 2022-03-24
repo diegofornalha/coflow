@@ -20,6 +20,16 @@
                 "altText": ""
             },
             {
+                "label": "Learn more",
+                "altText": "",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": "",
+                "type": "Link"
+            },
+            {
                 "type": "Link",
                 "label": "Blog",
                 "altText": "Blog",
