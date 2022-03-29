@@ -32,7 +32,7 @@
             {
                 "type": "Link",
                 "label": "Parcerias",
-                "altText": "",
+                "altText": "Parcerias",
                 "url": "https://parcerias.coflow.com.br/",
                 "showIcon": false,
                 "icon": "arrowRight",
