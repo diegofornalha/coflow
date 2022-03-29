@@ -28,7 +28,7 @@ sections:
         url: 'https://mais1code.com.br/'
         style: primary
       - type: Link
-        label: Vídeo da Parceria
+        label: Blog de Parcerias
         url: /
         style: link
         showIcon: true
