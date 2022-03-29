@@ -41,7 +41,7 @@
                 "type": "Button",
                 "label": "SEJA UM PARCEIRO",
                 "url": "/parceiros",
-                "altText": "parceiros",
+                "altText": "SEJA UM PARCEIRO",
                 "style": "primary"
             }
         ],
