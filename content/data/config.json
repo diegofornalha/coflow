@@ -39,7 +39,7 @@
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "PARCEIROS",
+                "label": "SEJA UM PARCEIRO",
                 "url": "/parceiros",
                 "altText": "parceiros",
                 "style": "primary"
