@@ -29,7 +29,7 @@ sections:
         style: primary
       - type: Link
         label: Blog de Parcerias
-        url: /
+        url: 'https://parcerias.coflow.com.br/blog/'
         style: link
         showIcon: true
         icon: playCircle
