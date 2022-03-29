@@ -140,6 +140,14 @@ sections:
         label: Seja um Parceiro
         url: 'https://wa.me/552124915249?text=Quero+saber+mais%21'
         style: primary
+      - type: Link
+        label: Learn more
+        altText: ''
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
     media:
       type: ImageBlock
       url: /images/3d.gif
