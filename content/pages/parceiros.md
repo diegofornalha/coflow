@@ -143,7 +143,7 @@ sections:
       - type: Link
         label: Entre para o Clube
         altText: ''
-        url: /
+        url: 'https://parcerias.coflow.com.br/blog/'
         showIcon: false
         icon: arrowRight
         iconPosition: right
