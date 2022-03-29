@@ -141,7 +141,7 @@ sections:
         url: 'https://wa.me/552124915249?text=Quero+saber+mais%21'
         style: primary
       - type: Link
-        label: Learn more
+        label: Learn moreB
         altText: ''
         url: /
         showIcon: false
