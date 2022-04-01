@@ -165,7 +165,7 @@ sections:
       - type: FeaturedItem
         title: Lançamento
         featuredImage:
-          url: /images/lançamento blockchain.png
+          url: /images/lançamento blockchain-c80dbbc7.png
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
