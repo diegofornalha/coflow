@@ -165,7 +165,7 @@ sections:
       - type: FeaturedItem
         title: Lançamento
         featuredImage:
-          url: /images/focused.svg
+          url: /images/lançamento blockchain.png
           altText: altText of the image
           caption: Caption of the image
           elementId: ''
