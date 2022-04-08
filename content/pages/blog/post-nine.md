@@ -39,13 +39,13 @@ layout: PostLayout
 ---
 ## O QUE É UM CONTRATO INTELIGENTE?
 
-Um "contrato inteligente" é simplesmente um programa executado na blockchain Ethereum. É uma coleção de código (suas funções) e dados (seu estado) que reside em um endereço específico no blockchain Ethereum.
+Um "contrato inteligente" é simplesmente um programa executado na blockchain. É uma coleção de código (suas funções) e dados (seu estado) que reside em um endereço específico no blockchain.
 
-Contratos inteligentes são um tipo de [conta Ethereum](https://ethereum.org/en/developers/docs/accounts/) . Isso significa que eles têm saldo e podem enviar transações pela rede. No entanto, eles não são controlados por um usuário, em vez disso, são implantados na rede e executados conforme programado. As contas de usuário podem interagir com um contrato inteligente enviando transações que executam uma função definida no contrato inteligente. Contratos inteligentes podem definir regras, como um contrato regular, e aplicá-las automaticamente por meio do código. Os contratos inteligentes não podem ser excluídos por padrão e as interações com eles são irreversíveis.
+Contratos inteligentes são um tipo de [conta](https://ethereum.org/en/developers/docs/accounts/) . Isso significa que eles têm saldo e podem enviar transações pela rede. No entanto, eles não são controlados por um usuário, em vez disso, são implantados na rede e executados conforme programado. As contas de usuário podem interagir com um contrato inteligente enviando transações que executam uma função definida no contrato inteligente. Contratos inteligentes podem definir regras, como um contrato regular, e aplicá-las automaticamente por meio do código. Os contratos inteligentes não podem ser excluídos por padrão e as interações com eles são irreversíveis.
 
 ## PRÉ-REQUISITOS
 
-Certifique-se de ler as [contas](https://ethereum.org/en/developers/docs/accounts/) , [transações](https://ethereum.org/en/developers/docs/transactions/) e a [máquina virtual Ethereum](https://ethereum.org/en/developers/docs/evm/) antes de entrar no mundo dos contratos inteligentes.
+Certifique-se de ler as [contas](https://ethereum.org/en/developers/docs/accounts/) , [transações](https://ethereum.org/en/developers/docs/transactions/) e a [máquina virtual](https://ethereum.org/en/developers/docs/evm/) antes de entrar no mundo dos contratos inteligentes.
 
 ## A DIGITAL VENDING MACHINE
 
@@ -54,8 +54,10 @@ Talvez a melhor metáfora para um contrato inteligente seja uma máquina de vend
 Para obter um lanche em uma máquina de venda automática:
 
 ```
-1dinheiro + seleção de lanche = lanche dispensado2
+dinheiro + seleção de lanche = lanche dispensado2
 ```
+
+
 
 Esta lógica é programada na máquina de venda automática.
 
@@ -71,9 +73,7 @@ A Ethereum possui linguagens amigáveis ​​ao desenvolvedor para escrever con
 
 *   Solidez
 
-*   Vyper
 
-[Mais sobre idiomas](https://ethereum.org/en/developers/docs/smart-contracts/languages/)
 
 No entanto, eles devem ser compilados antes de serem implantados para que a máquina virtual da Ethereum possa interpretar e armazenar o contrato. [Mais sobre compilação](https://ethereum.org/en/developers/docs/smart-contracts/compiling/)
 
@@ -114,6 +114,4 @@ Outra limitação dos contratos inteligentes é o tamanho máximo do contrato. 
 *   [Melhores práticas para desenvolvimento de contratos inteligentes ](https://yos.io/2019/11/10/smart-contract-development-best-practices/) *- 10 de novembro de 2019 - Yos Riady*
 
 *   [Contratos limpos - um guia sobre padrões e práticas de contratos inteligentes ](https://www.wslyvh.com/clean-contracts/) *– 30 de julho de 2020 - wslyvh*
-
-
 
