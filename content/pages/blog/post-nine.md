@@ -1,5 +1,5 @@
 ---
-title: CELO e cUSD estão prontos para negociação
+title: INTRODUÇÃO AOS CONTRATOS INTELIGENTES
 date: '2021-01-05'
 author: content/data/team/dianne-ameter.json
 excerpt: CELO e cUSD estão prontos para negociação
