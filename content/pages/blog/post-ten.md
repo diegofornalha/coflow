@@ -37,14 +37,14 @@ bottomSections:
     type: RecentPostsSection
 layout: PostLayout
 ---
-O que é Tezos?
+WEB 1
 
-Tezos é uma blockchain de camada 1 projetada para executar contratos inteligentes e aplicativos descentralizados. XTZ é a criptomoeda nativa da rede. É usado para pagar por transações, para proteger a rede por meio de “baking” (assinatura e publicação de blocos no blockchain Tezos) e para governança.
+Mesmo sendo muito diferente do que conhecemos hoje, a internet foi uma revolução para todos aqueles que dependem toda a vida de bibliotecas, correios e telefones. Essa era vez do e-mail, dos motores de busca simplistas e uma época onde todo site tinha uma seção de links recomendados. Ainda com poucos usuários, e esses em sua grande maioria fazendo um uso bastante técnico da rede.
 
-O que torna Tezos único?
+A Web 2.0 foi a revolução dos blogs, das mídias sociais colaborativas e do conteúdo produzido pelos próprios internautas. A internet se popularizou em todo o mundo, e começou a abranger muito mais do que algumas empresas. Nesse momento a navegação mobile e uso de aplicativos já tem forte presença no dia-a-dia das pessoas.
 
-Tezos é projetado para evoluir. Ao contrário de outros protocolos, a comunidade pode atualizar seus recursos sem a necessidade de um hard fork.
+A Web 3.0 é um uso ainda mais inteligente do conhecimento e conteúdo já disponibilizado online. É uma internet cada vez mais próxima da inteligência artificial. É muito mais ampla do que o conceito mobile, nesse cenário as pessoas estão e estarão conectadas 24 horas por dia nos 7 dias da semana, por meio dos celulares, smartphones, SmartTV's, iPod's, tablets, carros inteligentes e videogames.
 
-Por que Tezos está recebendo atenção?
 
-Tezos é uma das provas originais de blockchains de participação, o que significa que sua rede requer menos energia para proteger e sustentar. Desde o lançamento em 2018, ele foi utilizado para centenas de projetos, registrou milhões de transações e atraiu uma comunidade global vibrante.
+
+
