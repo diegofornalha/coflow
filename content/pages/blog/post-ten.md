@@ -1,5 +1,5 @@
 ---
-title: Da Web 1 até Web 3
+title: O que é Web3
 date: '2020-12-20'
 author: content/data/team/hugh-saturation.json
 excerpt: Tezos está pronto para negociação
