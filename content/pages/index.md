@@ -5,7 +5,7 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
-    title: Seu time vai ser fluente na blockchain?
+    title: Seu time vai ser fluente na web3?
     subtitle: >-
       Desenvolva uma poc do zero em menos de 1 mês, dê os primeiros passos em
       direção ao futuro com seu time.
