@@ -1,6 +1,6 @@
 ---
 layout: PostFeedLayout
-title: Metaverso
+title: Blog
 numOfPostsPerPage: 10
 postFeed:
   showDate: true
