@@ -76,7 +76,6 @@ sections:
     subtitle: ''
     images:
       - type: ImageBlock
-        url: /images/careers.jpg
         caption: Meeting room
         altText: People in the meeting room
       - type: ImageBlock
