@@ -46,9 +46,18 @@ sections:
         justifyContent: flex-start
   - type: QuoteSection
     colors: colors-h
-    quote: >-
-      ## Being part of this team has been incredible. We’ve fill each other’s
-      gaps, and we go to lunch together :)
+    quote: >+
+      ## Nós somos uma consultoria de Web3 e blockchain que oferece serviços de
+      assessoria e orientação a empresas e organizações que desejam incorporar
+      tecnologias baseadas em blockchain e Web3 em suas operações e negócios.
+      Isso inclui ajudar a empresa a avaliar a viabilidade de utilizar a
+      tecnologia blockchain, a seleção de uma plataforma de blockchain
+      apropriada, a implementação de soluções baseadas em blockchain, bem como o
+      treinamento e o suporte contínuo. Nós também fornecemos serviços de
+      gerenciamento de projetos, análise de negócios e orientação estratégica
+      para ajudar as empresas a maximizar o valor de suas implementações de
+      tecnologia blockchain.&#xA;&#xA;
+
     name: Diego Alcantara
     title: Ceo da Coflow.com.br
     styles:
