@@ -49,7 +49,7 @@ sections:
     quote: >-
       ## Being part of this team has been incredible. We’ve fill each other’s
       gaps, and we go to lunch together :)
-    name: Carla Rogers
+    name: Diego Alcantara
     title: Someone from the team
     styles:
       self:
