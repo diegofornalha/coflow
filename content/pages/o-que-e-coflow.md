@@ -50,7 +50,7 @@ sections:
       ## Being part of this team has been incredible. We’ve fill each other’s
       gaps, and we go to lunch together :)
     name: Diego Alcantara
-    title: Someone from the team
+    title: Ceo da Coflow.com.br
     styles:
       self:
         height: auto
