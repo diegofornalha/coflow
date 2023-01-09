@@ -10,7 +10,9 @@ sections:
   - type: HeroSection
     colors: colors-h
     title: O que é Coflow?
-    text: You should join us.
+    text: |+
+      Consultoria em web3 e blockchain
+
     media:
       type: ImageBlock
       caption: Team meeting
