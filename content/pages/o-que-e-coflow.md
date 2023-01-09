@@ -76,9 +76,6 @@ sections:
     subtitle: ''
     images:
       - type: ImageBlock
-        caption: Meeting room
-        altText: People in the meeting room
-      - type: ImageBlock
         url: /images/post-2.jpg
         caption: Team meeting
         altText: Team meeting
