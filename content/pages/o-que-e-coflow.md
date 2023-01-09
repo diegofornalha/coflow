@@ -76,7 +76,6 @@ sections:
     subtitle: ''
     images:
       - type: ImageBlock
-        url: /images/post-2.jpg
         caption: Team meeting
         altText: Team meeting
     columns: 2
