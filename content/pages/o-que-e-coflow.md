@@ -9,7 +9,7 @@ title: o que é coflow?
 sections:
   - type: HeroSection
     colors: colors-h
-    title: We’re growing fast
+    title: O que é Coflow?
     text: You should join us.
     media:
       type: ImageBlock
