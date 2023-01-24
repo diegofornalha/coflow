@@ -66,5 +66,5 @@ module.exports = {
     cssClassesFromUrlPath,
     cssClassesFromFilePath,
     flattenMarkdownData,
-    setEnvironmentVariables,
+    setEnvironmentVariables
 };

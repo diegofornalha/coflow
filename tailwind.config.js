@@ -5,7 +5,7 @@ module.exports = {
     mode: 'jit',
     purge: {
         content: ['./src/**/*.{js,ts,jsx,tsx}', './content/**/*'],
-        safelist: ['colors-a', 'colors-b', 'colors-c', 'colors-d', 'colors-e', 'colors-f', 'colors-g', 'colors-h']
+        safelist: ['colors-a', 'colors-b', 'colors-c', 'colors-d', 'colors-e']
     },
     darkMode: false,
     theme: {
@@ -21,7 +21,10 @@ module.exports = {
                 secondary: themeStyle.secondary,
                 'on-secondary': themeStyle.onSecondary,
                 complementary: themeStyle.complementary,
-                'on-complementary': themeStyle.onComplementary
+                'on-complementary': themeStyle.onComplementary,
+                'complementary-alt': themeStyle.complementaryAlt,
+                'on-complementary-alt': themeStyle.onComplementaryAlt,
+                'complementary-alt-2': '#424242',
             },
             spacing: {
                 '1/1': '100%',
@@ -33,8 +36,11 @@ module.exports = {
                 '9/16': '56.25%'
             },
             fontFamily: {
-                sans: ['Poppins', 'sans-serif'],
-                sansAlt: ['Noto Sans Display', 'sans-serif']
+                fontPrimary: ["Space Grotesk", "sans-serif"],
+                fontSecondary: ["Roboto Mono", "monospace"]
+            },
+            screens: {
+                lg: '1280px',
             }
         }
     },
@@ -91,7 +97,7 @@ module.exports = {
                     letterSpacing: theme(`letterSpacing.${themeStyle.h6.letterSpacing}`),
                     textDecoration: themeStyle.h6.decoration,
                     textTransform: themeStyle.h6.case
-                }
+                },
             });
             addComponents({
                 '.sb-component-button-primary': {

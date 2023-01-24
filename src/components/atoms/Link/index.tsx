@@ -7,13 +7,16 @@ export default function Link({ children, href, ...other }) {
     if (internal) {
         return (
             <NextLink href={href}>
-                <a {...other}>{children}</a>
+                {href.includes('files/') ?
+                    <a target="_blank" rel="noopener noreferrer" {...other}>{children}</a> :
+                    <a {...other}>{children}</a>
+                }
             </NextLink>
         );
     }
 
     return (
-        <a href={href} {...other}>
+        <a href={href} target="_blank" rel="noopener noreferrer" {...other}>
             {children}
         </a>
     );

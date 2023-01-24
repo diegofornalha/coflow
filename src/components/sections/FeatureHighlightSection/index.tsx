@@ -2,201 +2,174 @@ import * as React from 'react';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
-import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
-import { getDataAttrs } from '../../../utils/get-data-attrs';
-import { Action, Badge } from '../../atoms';
+import { Action, BackgroundImage } from '../../atoms';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function FeatureHighlightSection(props) {
-    const cssId = props.elementId || null;
-    const colors = props.colors || 'colors-a';
-    const bgSize = props.backgroundSize || 'full';
-    const sectionStyles = props.styles?.self || {};
-    const sectionWidth = sectionStyles.width || 'wide';
-    const sectionHeight = sectionStyles.height || 'auto';
-    const sectionJustifyContent = sectionStyles.justifyContent || 'center';
-    const sectionFlexDirection = sectionStyles.flexDirection || 'row';
-    const sectionAlignItems = sectionStyles.alignItems || 'center';
+    const { backgroundSize = 'full', ...rest } = props;
+    if (backgroundSize === 'inset') {
+        return <FeatureHighlightSectionInset {...rest} />;
+    } else {
+        return <FeatureHighlightSectionFullWidth {...rest} />;
+    }
+}
+
+function FeatureHighlightSectionInset(props) {
+    const { elementId, colors = 'colors-d', backgroundImage, title, titlePt, subtitle, subtitlePt, text, textPt, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'pt' && titlePt ? titlePt : title;
+    const getSubtitle = () => locale === 'pt' && subtitlePt ? subtitlePt : subtitle;
+    const getText = () => locale === 'pt' && textPt ? textPt : text;
+
     return (
         <div
-            id={cssId}
-            {...getDataAttrs(props)}
+            id={elementId || null}
             className={classNames(
                 'sb-component',
                 'sb-component-section',
                 'sb-component-feature-highlight-section',
-                bgSize === 'inset' ? 'flex': null,
-                bgSize === 'inset' ? mapStyles({ justifyContent: sectionJustifyContent }) : null,
-                sectionStyles.margin
+                'flex',
+                'justify-center',
+                styles.self?.margin
             )}
+            data-sb-field-path={fieldPath}
         >
             <div
                 className={classNames(
-                    colors,
+                    getMatchingColor(displayMode, colors),
                     'flex',
                     'flex-col',
+                    'items-center',
                     'justify-center',
                     'relative',
-                    bgSize === 'inset' ? 'w-full': null,
-                    bgSize === 'inset' ? mapMaxWidthStyles(sectionWidth) : null,
-                    mapMinHeightStyles(sectionHeight),
-                    sectionStyles.padding || 'py-12 px-4',
-                    sectionStyles.borderColor,
-                    sectionStyles.borderStyle ? mapStyles({ borderStyle: sectionStyles.borderStyle }) : 'border-none',
-                    sectionStyles.borderRadius ? mapStyles({ borderRadius: sectionStyles.borderRadius }) : null,
-                    sectionStyles.boxShadow ? mapStyles({ boxShadow: sectionStyles.boxShadow }) : null
+                    'w-full',
+                    mapStyles({ width: styles.self?.width ?? 'wide' }),
+                    mapStyles({ height: styles.self?.height ?? 'auto' }),
+                    styles.self?.padding ?? 'py-12 px-4',
+                    styles.self?.borderColor,
+                    styles.self?.borderStyle ? mapStyles({ borderStyle: styles.self?.borderStyle }) : null,
+                    styles.self?.borderRadius ? mapStyles({ borderRadius: styles.self?.borderRadius }) : null,
+                    styles.self?.boxShadow ? mapStyles({ boxShadow: styles.self?.boxShadow }) : null
                 )}
                 style={{
-                    borderWidth: sectionStyles.borderWidth ? `${sectionStyles.borderWidth}px` : null
+                    borderWidth: styles.self?.borderWidth ? `${styles.self?.borderWidth}px` : null
                 }}
             >
-                <div
-                    className={classNames(
-                        'relative',
-                        'w-full',
-                        bgSize === 'full' ? 'flex': null,
-                        bgSize === 'full' ? mapStyles({ justifyContent: sectionJustifyContent }) : null
-                    )}
-                >
-                    <div
-                        className={classNames(
-                            'w-full',
-                            bgSize === 'full' ? mapMaxWidthStyles(sectionWidth) : null
-                        )}
-                    >
-                        <div
-                            className={classNames(
-                                'flex',
-                                mapFlexDirectionStyles(sectionFlexDirection),
-                                mapStyles({ alignItems: sectionAlignItems }),
-                                'space-y-8',
-                                {
-                                    'space-y-reverse': sectionFlexDirection === 'col-reverse' || sectionFlexDirection === 'row-reverse',
-                                    'lg:space-y-0': sectionFlexDirection === 'row' || sectionFlexDirection === 'row-reverse'
-                                }
-                            )}
-                        >
-                            <div className="flex-1 w-full">
-                                <div
-                                    className={classNames({
-                                        'lg:pr-1/4': props.media && sectionFlexDirection === 'row',
-                                        'lg:pl-1/4': props.media && sectionFlexDirection === 'row-reverse',
-                                    })}
-                                >
-                                    {featureHighlightBody(props)}
-                                    {featureHighlightActions(props)}
-                                </div>
-                            </div>
-                            {props.media && (
-                                <div className="flex-1 w-full">
-                                    {featureHighlightMedia(props.media)}
-                                </div>
-                            )}
-                        </div>
-                    </div>
+                {backgroundImage && <BackgroundImage {...backgroundImage} />}
+                <div className={classNames('relative', 'w-full', 'flex', mapStyles({ justifyContent: styles.self?.justifyContent ?? 'center' }))}>
+                    <FeatureHighlightBody title={getTitle()} subtitle={getSubtitle()} text={getText()} actions={actions} styles={styles} />
                 </div>
             </div>
         </div>
     );
 }
 
-function featureHighlightMedia(media) {
-    const mediaType = media.type;
-    if (!mediaType) {
-        throw new Error(`hero section media does not have the 'type' property`);
-    }
-    const Media = getComponent(mediaType);
-    if (!Media) {
-        throw new Error(`no component matching the hero section media type: ${mediaType}`);
-    }
-    return <Media {...media} data-sb-field-path=".media" />;
-}
+function FeatureHighlightSectionFullWidth(props) {
+    const { elementId, colors, backgroundImage, title, titlePt, subtitle, subtitlePt, text, textPt, actions, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'pt' && titlePt ? titlePt : title;
+    const getSubtitle = () => locale === 'pt' && subtitlePt ? subtitlePt : subtitle;
+    const getText = () => locale === 'pt' && textPt ? textPt : text;
 
-function featureHighlightBody(props) {
-    const styles = props.styles || {};
     return (
-        <>
-            {props.badge && <Badge {...props.badge} data-sb-field-path=".badge" />}
-            {props.title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null, { 'mt-4': props.badge?.label })} data-sb-field-path=".title">
-                    {props.title}
-                </h2>
+        <div
+            id={elementId || null}
+            className={classNames(
+                'sb-component',
+                'sb-component-section',
+                'sb-component-feature-highlight-section',
+                getMatchingColor(displayMode, colors),
+                'flex',
+                'flex-col',
+                'items-center',
+                'justify-center',
+                'relative',
+                mapStyles({ height: styles.self?.height ?? 'auto' }),
+                styles.self?.margin,
+                styles.self?.padding ?? 'py-12 px-4',
+                styles.self?.borderColor,
+                styles.self?.borderStyle ? mapStyles({ borderStyle: styles.self?.borderStyle }) : null,
+                styles.self?.borderRadius ? mapStyles({ borderRadius: styles.self?.borderRadius }) : null,
+                styles.self?.boxShadow ? mapStyles({ boxShadow: styles.self?.boxShadow }) : null
             )}
-            {props.subtitle && (
-                <p
-                    className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': props.title })}
-                    data-sb-field-path=".subtitle"
-                >
-                    {props.subtitle}
-                </p>
-            )}
-            {props.text && (
-                <Markdown
-                    options={{ forceBlock: true, forceWrapper: true }}
-                    className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-6': props.title || props.subtitle })}
-                    data-sb-field-path=".text"
-                >
-                    {props.text}
-                </Markdown>
-            )}
-        </>
+            style={{
+                borderWidth: styles.self?.borderWidth ? `${styles.self?.borderWidth}px` : null
+            }}
+            data-sb-field-path={fieldPath}
+        >
+            {backgroundImage && <BackgroundImage {...backgroundImage} />}
+            <div
+                className={classNames(
+                    'relative',
+                    'flex',
+                    'w-full',
+                    mapStyles({ width: styles.self?.width ?? 'wide' }),
+                    mapStyles({ justifyContent: styles.self?.justifyContent ?? 'center' })
+                )}
+            >
+                <FeatureHighlightBody title={getTitle()} subtitle={getSubtitle()} text={getText()} actions={actions} styles={styles} />
+            </div>
+        </div>
     );
 }
 
-function featureHighlightActions(props) {
-    const actions = props.actions || [];
+function FeatureHighlightBody(props) {
+    const { title, subtitle, text, actions, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitleFieldPath = () => locale === 'pt' ? '.titlePt' : '.title';
+    const getSubtitleFieldPath = () => locale === 'pt' ? '.subtitlePt' : '.subtitle';
+    const getTextFieldPath = () => locale === 'pt' ? '.textPt' : '.text';
+
+    return (
+        <div className={classNames('sb-card', 'max-w-2xl', 'px-6', 'py-10', 'sm:px-12', 'sm:py-14')}>
+            {title && (
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
+                    {title}
+                </h2>
+            )}
+            {subtitle && (
+                <p
+                    className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': title })}
+                    data-sb-field-path={getSubtitleFieldPath()}
+                >
+                    {subtitle}
+                </p>
+            )}
+            {text && (
+                <Markdown
+                    options={{ forceBlock: true, forceWrapper: true }}
+                    className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-6': title || subtitle })}
+                    data-sb-field-path={getTextFieldPath()}
+                >
+                    {text}
+                </Markdown>
+            )}
+            <FeatureHighlightActions actions={actions} styles={styles.actions} hasTopMargin={!!(title || subtitle || text)} />
+        </div>
+    );
+}
+
+function FeatureHighlightActions(props) {
+    const { actions = [], styles = {}, hasTopMargin } = props;
     if (actions.length === 0) {
         return null;
     }
-    const styles = props.styles || {};
     return (
         <div
             className={classNames('overflow-x-hidden', {
-                'mt-8': props.title || props.subtitle || props.text || props.badge
+                'mt-8': hasTopMargin
             })}
         >
-            <div
-                className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', styles.actions ? mapStyles(styles.actions) : null)}
-                data-sb-field-path=".actions"
-            >
+            <div className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', mapStyles(styles))} data-sb-field-path=".actions">
                 {actions.map((action, index) => (
                     <Action key={index} {...action} className="mb-3 mx-2 lg:whitespace-nowrap" data-sb-field-path={`.${index}`} />
                 ))}
             </div>
         </div>
     );
-}
-
-function mapMinHeightStyles(height) {
-    switch (height) {
-        case 'screen':
-            return 'min-h-screen';
-    }
-    return null;
-}
-
-function mapMaxWidthStyles(width) {
-    switch (width) {
-        case 'narrow':
-            return 'max-w-screen-md';
-        case 'wide':
-            return 'max-w-screen-xl';
-        case 'full':
-            return 'max-w-full';
-    }
-    return null;
-}
-
-function mapFlexDirectionStyles(flexDirection) {
-    switch (flexDirection) {
-        case 'row':
-            return ['flex-col', 'lg:flex-row'];
-        case 'row-reverse':
-            return ['flex-col-reverse', 'lg:flex-row-reverse'];
-        case 'col':
-            return ['flex-col'];
-        case 'col-reverse':
-            return ['flex-col-reverse'];
-    }
-    return null;
 }

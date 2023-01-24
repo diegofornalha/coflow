@@ -1,156 +1,223 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.webp",
     "header": {
-        "headerVariant": "variant-c",
-        "primaryColors": "colors-a",
-        "secondaryColors": "colors-f",
-        "isTitleVisible": true,
+        "headerVariant": "variant-b",
+        "isSticky": true,
+        "primaryColors": "colors-b",
+        "secondaryColors": "colors-d",
+        "isTitleVisible": false,
         "primaryLinks": [
             {
                 "type": "Link",
                 "label": "Home",
                 "url": "/",
-                "altText": ""
+                "altText": "Home"
             },
             {
-                "type": "Link",
-                "label": "COFLOW",
-                "url": "/faq",
-                "altText": ""
+                "type": "DropdownLink",
+                "label": "About",
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "Who We Are",
+                        "url": "/about",
+                        "altText": "About"
+                    },
+                    {
+                        "type": "Link",
+                        "label": "Blog",
+                        "altText": "Blog",
+                        "url": "https://flow.coflow.com.br/blog",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    }
+                ]
             },
             {
-                "label": "Solidity",
-                "altText": "",
-                "url": "https://solidity.coflow.com.br/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": "",
-                "type": "Link"
-            },
-            {
-                "type": "Link",
-                "label": "Parcerias",
-                "altText": "Parcerias",
-                "url": "https://parcerias.coflow.com.br/blog/",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "altText": "Blog",
-                "url": "/blog"
+                "type": "DropdownLink",
+                "label": "Volunteers",
+                "dropdownLinks": [
+                    {
+                        "type": "Link",
+                        "label": "2023",
+                        "altText": "Link to 2023 team's page",
+                        "url": "/registro/2023",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    },
+                    {
+                        "type": "Link",
+                        "label": "Advocates",
+                        "altText": "Advocates",
+                        "url": "https://flow.coflow.com.br/flow-brasil-embaixador-aprendiz/",
+                        "showIcon": true,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "elementId": ""
+                    }
+                ]
             }
         ],
         "secondaryLinks": [
             {
                 "type": "Button",
-                "label": "SEJA UM PARCEIRO",
-                "url": "/parceiros",
-                "altText": "SEJA UM PARCEIRO",
-                "style": "primary"
+                "label": "Join Discord",
+                "altText": "Entrar no Discord",
+                "style": "secondary",
+                "url": "https://discord.com/invite/hT8EpC5mUN",
+                "showIcon": true,
+                "icon": "cart",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "styles": {
             "self": {
-                "width": "narrow",
+                "width": "wide",
                 "padding": [
+                    "pl-5",
                     "pt-5",
                     "pb-5",
-                    "pr-4",
-                    "pl-4"
+                    "pr-5"
                 ]
             }
         },
         "logo": {
-            "altText": "altText of the image",
-            "caption": "Caption of the image",
-            "elementId": "",
-            "styles": {
-                "self": {
-                    "opacity": 100
-                }
-            },
             "type": "ImageBlock",
-            "url": "/images/3d.gif"
+            "url": "/images/padrao/flow-coflow-logo.png",
+            "altText": "IEEE uOttawa Logo",
+            "caption": "Caption of the image",
+            "width": 114,
+            "height": 48,
+            "elementId": ""
         },
-        "title": "BlockChain"
+        "title": "IEEE uOttawa"
     },
     "footer": {
-        "colors": "colors-h",
-        "logo": {
-            "altText": "altText of the image",
-            "caption": "Caption of the image",
-            "elementId": "",
-            "styles": {
-                "self": {
-                    "opacity": 100
-                }
-            },
-            "type": "ImageBlock",
-            "url": "/images/3d.gif"
-        },
-        "title": "Coflow",
+        "variant": "variant-b",
+        "colors": "colors-b",
         "contacts": {
-            "title": "Detalhes do contato",
-            "phoneNumber": "21 2491-5249",
-            "phoneAltText": "Nosso telefone",
-            "email": "contato@coflow.com.br",
-            "emailAltText": "Nosso E-mail",
-            "address": "Brasil | Rio de Janeiro",
-            "addressAltText": "Nosso Endereço"
+            "addressAltText": "Our address"
         },
-        "copyrightText": "Feito com ❤️ por [Coflow](https://coflow.com.br/)\n",
+        "copyrightText": "CoFlow",
         "primaryLinks": [
             {
                 "type": "Link",
                 "label": "Home",
                 "url": "/",
-                "altText": ""
+                "altText": "Home"
             },
             {
                 "type": "Link",
-                "label": "Coflow",
-                "url": "/faq",
-                "altText": ""
+                "label": "Who We Are",
+                "url": "/about",
+                "altText": "Quem Somos"
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
+                "label": "Contact Us",
+                "altText": "Contact Us",
+                "url": "https://wa.me/5521997806363?text=Ol%C3%A1",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "socialLinks": [
             {
                 "type": "Social",
+                "label": "Email",
+                "altText": "",
+                "url": "mailto:diegofornalha@gmail.com",
+                "icon": "mail",
+                "style": "link",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
                 "altText": "Instagram",
                 "label": "Instagram",
-                "url": "/",
+                "url": "http://www.instagram.com/diegofornalha",
                 "icon": "instagram"
-            }
-        ],
-        "legalLinks": [
+            },
             {
-                "type": "Link",
-                "label": "Terms & Conditions",
-                "url": "/"
+                "type": "Social",
+                "altText": "Linkedin",
+                "label": "Linkedin",
+                "url": "https://www.github.com/diegofornalha",
+                "icon": "github"
+            },
+            {
+                "type": "Social",
+                "label": "Youtube",
+                "altText": "Youtube",
+                "icon": "youtube",
+                "style": "link",
+                "elementId": "",
+                "url": "https://www.youtube.com/diegofornalha"
+            },
+            {
+                "type": "Social",
+                "altText": "Twitter",
+                "label": "Twitter",
+                "url": "https://twitter.com/diegofornalha",
+                "icon": "twitter"
+            },
+            {
+                "type": "Social",
+                "label": "Linkedin",
+                "altText": "Linkedin",
+                "url": "https://linkedin.com/in/diegofornalha",
+                "icon": "linkedin",
+                "style": "link",
+                "elementId": ""
             }
         ],
         "styles": {
             "self": {
-                "width": "narrow",
-                "padding": [
-                    "pt-16",
-                    "pb-16",
-                    "pr-4",
-                    "pl-4"
-                ]
+                "width": "narrow"
             }
+        },
+        "logo": {
+            "type": "ImageBlock",
+            "url": "/images/padrao/flow-coflow-logo.png",
+            "altText": "IEEE uOttawa Logo",
+            "caption": "IEEE uOttawa Logo",
+            "width": 114,
+            "height": 48,
+            "elementId": ""
         }
-    }
+    },
+    "defaultMetaTags": [
+        {
+            "type": "MetaTag",
+            "property": "og:title",
+            "content": "IEEE uOttawa Student Branch"
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:description",
+            "content": "The IEEE uOttawa Student Branch is the official student branch for the University of Ottawa and the official Sub-Association for ELG/CEG/SEG under the uOttawa Engineering Students Society."
+        },
+        {
+            "type": "MetaTag",
+            "property": "og:image",
+            "content": "/images/image_3.JPEG"
+        },
+        {
+            "type": "MetaTag",
+            "property": "twitter:image",
+            "content": "/images/image_3.JPEG"
+        },
+        {
+            "type": "MetaTag",
+            "property": "twitter:image:alt",
+            "content": "CoFlow Image"
+        }
+    ]
 }

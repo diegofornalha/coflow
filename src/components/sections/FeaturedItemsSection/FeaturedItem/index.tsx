@@ -5,79 +5,96 @@ import Markdown from 'markdown-to-jsx';
 import { mapStylesToClassNames as mapStyles } from '../../../../utils/map-styles-to-class-names';
 import Action from '../../../atoms/Action';
 import ImageBlock from '../../../molecules/ImageBlock';
+import { useContext } from 'react';
+import { I18NContext } from '../../../../context/i18Ncontext';
+import { iconMap } from '../../../svgs';
 
 export default function FeaturedItem(props) {
-    const cssId = props.elementId || null;
-    const styles = props.styles || {};
-    const itemBorderWidth = styles.self?.borderWidth ? styles.self?.borderWidth : 0;
+    const { elementId, title, titlePt, subtitle, subtitlePt, text, textPt, isIcon, featuredImage, featuredIcon, actions = [], enableHover, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { self = {} } = styles;
+    const { borderWidth, ...otherSelfStyles } = self;
+    const { locale } = useContext(I18NContext);
+    const IconComponent = isIcon && featuredIcon ? iconMap[featuredIcon] : null;
+    
+    const getTitle = () => locale === 'pt' && titlePt ? titlePt : title;
+    const getSubtitle = () => locale === 'pt' && subtitlePt ? subtitlePt : subtitle;
+    const getText = () => locale === 'pt' && textPt ? textPt : text;
+
     return (
         <article
-            id={cssId}
+            id={elementId || null}
             className={classNames(
                 'sb-component',
                 'sb-component-block',
                 'sb-component-item',
-                props.enableHover ? 'sb-component-item-hover' : null,
-                styles.self?.padding,
-                styles.self?.borderColor,
-                styles.self?.borderStyle ? mapStyles({ borderStyle: styles.self?.borderStyle }) : 'border-none',
-                styles.self?.borderRadius ? mapStyles({ borderRadius: styles.self?.borderRadius }) : null,
-                styles.self?.textAlign ? mapStyles({ textAlign: styles.self?.textAlign }) : null
+                enableHover ? 'sb-component-item-hover' : null,
+                mapStyles(otherSelfStyles)
             )}
             style={{
-                borderWidth: itemBorderWidth ? `${itemBorderWidth}px` : undefined
+                borderWidth: borderWidth ? `${borderWidth}px` : null
             }}
-            data-sb-field-path={props['data-sb-field-path']}>
-            {props.featuredImage && (
-                <div className="mb-6" data-sb-field-path=".featuredImage">
-                    <ImageBlock {...props.featuredImage} className="inline-block" />
+            data-sb-field-path={fieldPath}
+        >
+            {IconComponent && (
+                <div className="mb-6 text-center" data-sb-field-path=".featuredIcon#svg[1]">
+                    <IconComponent
+                        className={classNames(
+                            'fill-current h-20 w-20',
+                            'sb-component',
+                            'sb-component-block',
+                            'sb-component-image-block',
+                            'inline-block',
+                        )}
+                    />
                 </div>
             )}
-            {props.title && (
-                <h3 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {props.title}
+
+            {featuredImage && !isIcon && (
+                <div className="mb-6">
+                    <ImageBlock {...featuredImage} className="inline-block" data-sb-field-path=".featuredImage" />
+                </div>
+            )}
+            {title && (
+                <h3 className={classNames(styles.title ? mapStyles(styles.title) : null, { 'text-center' : isIcon })} data-sb-field-path={locale === 'pt' ? ".titlePt" : ".title"}>
+                    {getTitle()}
                 </h3>
             )}
-            {props.subtitle && (
-                <p
-                    className={classNames('text-lg', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-1': props.title })}
-                    data-sb-field-path=".subtitle"
-                >
-                    {props.subtitle}
+            {subtitle && (
+                <p className={classNames('text-lg', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-1': title })} data-sb-field-path={locale === 'pt' ? ".subtitlePt" : ".subtitle"}>
+                    {getSubtitle()}
                 </p>
             )}
-            {props.text && (
+            {text && (
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
                     className={classNames('sb-markdown', {
-                        'mt-4': props.title || props.subtitle
+                        'mt-4': title || subtitle
                     })}
-                    data-sb-field-path=".text"
+                    data-sb-field-path={locale === 'pt' ? ".textPt" : ".text"}
                 >
-                    {props.text}
+                    {getText()}
                 </Markdown>
             )}
-            {itemActions(props)}
+            <ItemActions actions={actions} textAlign={otherSelfStyles.textAlign} hasTopMargin={!!(title || subtitle || text)} />
         </article>
     );
 }
 
-function itemActions(props) {
-    const actions = props.actions || [];
+function ItemActions(props) {
+    const { actions = [], textAlign, hasTopMargin } = props;
     if (actions.length === 0) {
         return null;
     }
-    const styles = props.styles || {};
     return (
         <div
             className={classNames('overflow-x-hidden', {
-                'mt-6': props.title || props.subtitle || props.text
+                'mt-6': hasTopMargin
             })}
         >
             <div
                 className={classNames('flex', 'flex-wrap', 'items-center', '-mx-2', {
-                    'justify-center': styles.self?.textAlign === 'center',
-                    'justify-end': styles.self?.textAlign === 'right'
+                    'justify-center': textAlign === 'center',
+                    'justify-end': textAlign === 'right'
                 })}
                 data-sb-field-path=".actions"
             >

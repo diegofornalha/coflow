@@ -5,24 +5,45 @@ import Link from '../../atoms/Link';
 import { getComponent } from '../../components-registry';
 import { getBaseLayoutComponent } from '../../../utils/base-layout';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
+import { DisplayModeContext } from '../../../context/displayMode';
+import { getMatchingColor } from '../../../utils/themeColorMapper';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function PostFeedLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
-    const { title, topSections = [], bottomSections = [], pageIndex, baseUrlPath, numOfPages, items, postFeed } = page;
-    const postFeedColors = postFeed?.colors || 'colors-a';
-    const postFeedWidth = postFeed?.styles?.self?.width || 'wide';
-    const postFeedJustifyContent = postFeed?.styles?.self?.justifyContent || 'center';
+    const { title, titlePt, topSections = [], bottomSections = [], pageIndex, baseUrlPath, numOfPages, items, postFeed, styles = {} } = page;
+    const colors = postFeed?.colors ?? 'colors-d';
     const PostFeedSection = getComponent('PostFeedSection');
     const pageLinks = PageLinks({ pageIndex, baseUrlPath, numOfPages });
+    const { displayMode } = React.useContext(DisplayModeContext);
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'pt' && titlePt ? titlePt : title;
+    const getTitleFieldPath = () => locale === 'pt' && titlePt ? 'titlePt' : 'title';
 
     return (
         <BaseLayout page={page} site={site}>
             <main id="main" className="layout page-layout">
                 {title && (
-                    <div className={classNames('flex', 'py-12', 'lg:py-14', 'px-4', postFeedColors, mapStyles({ justifyContent: postFeedJustifyContent }))}>
-                        <h1 className={classNames('w-full', mapMaxWidthStyles(postFeedWidth), page?.styles?.title ? mapStyles(page?.styles?.title) : null)} data-sb-field-path="title">
-                            {title}
+                    <div
+                        className={classNames(
+                            'flex',
+                            'py-12',
+                            'lg:py-16',
+                            'px-4',
+                            getMatchingColor(displayMode, colors),
+                            mapStyles({ justifyContent: postFeed?.styles?.self?.justifyContent ?? 'center' })
+                        )}
+                    >
+                        <h1
+                            className={classNames(
+                                'w-full',
+                                mapStyles({ width: postFeed?.styles?.self?.width ?? 'wide' }),
+                                styles.title ? mapStyles(styles.title) : null
+                            )}
+                            data-sb-field-path={getTitleFieldPath()}
+                        >
+                            {getTitle()}
                         </h1>
                     </div>
                 )}
@@ -131,16 +152,4 @@ function Ellipsis() {
 
 function urlPathForPageAtIndex(pageIndex, baseUrlPath) {
     return pageIndex === 0 ? baseUrlPath : `${baseUrlPath}/page/${pageIndex + 1}`;
-}
-
-function mapMaxWidthStyles(width) {
-    switch (width) {
-        case 'narrow':
-            return 'max-w-screen-md';
-        case 'wide':
-            return 'max-w-screen-xl';
-        case 'full':
-            return 'max-w-full';
-    }
-    return null;
 }

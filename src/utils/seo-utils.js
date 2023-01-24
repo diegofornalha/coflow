@@ -1,4 +1,5 @@
 export function seoGenerateMetaTags(page, site) {
+
     let pageMetaTags = {};
 
     if (site.defaultMetaTags?.length) {
@@ -10,8 +11,8 @@ export function seoGenerateMetaTags(page, site) {
     pageMetaTags = {
         ...pageMetaTags,
         ...(seoGenerateTitle(page, site) && { 'og:title': seoGenerateTitle(page, site) }),
-        ...(seoGenerateOgImage(page, site) && { 'og:image': seoGenerateOgImage(page, site) })
-    };
+        ...(seoGenerateOgImage(page, site) && { 'og:image': seoGenerateOgImage(page, site) }),
+    }
 
     if (page.metaTags?.length) {
         page.metaTags.forEach((metaTag) => {

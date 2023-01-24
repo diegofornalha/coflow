@@ -4,8 +4,11 @@ import classNames from 'classnames';
 
 import { getComponent } from '../../components-registry';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default class FormBlock extends React.Component<any> {
+    static contextType = I18NContext;
+    
     state = {
         submitted: false,
         error: false
@@ -57,21 +60,17 @@ export default class FormBlock extends React.Component<any> {
     }
 
     render() {
-        const {
-            fields = [],
-            elementId,
-            variant = 'variant-a',
-            action,
-            destination,
-            submitLabel,
-            className,
-            styles = {},
-            'data-sb-field-path': annotation
-        } = this.props;
+        const { elementId, className, action, destination, fields = [], submitLabel, submitLabelFr, styles = {}, 'data-sb-field-path': fieldPath } = this.props;
         if (fields.length === 0) {
             return null;
         }
         const formHoneypotName = `${elementId}-bot-field`;
+        const { locale } = this.context;
+        
+        const getSubmitLabel = () => locale === 'pt' && submitLabelFr ? submitLabelFr : submitLabel;
+        const getConfirmation = () => locale === 'pt' ? 'Merci pour votre message !' : 'Thanks for your message!';
+        const getErrorMessage = () => locale === 'pt' ? 'Une erreur est survenue, veuillez réessayer.' : 'An error occurred, please try again.';
+
         return (
             <form
                 className={classNames('sb-component', 'sb-component-block', 'sb-component-form-block', className)}
@@ -81,43 +80,33 @@ export default class FormBlock extends React.Component<any> {
                 data-netlify="true"
                 ref={this.formRef}
                 data-netlify-honeypot={formHoneypotName}
-                data-sb-field-path={annotation}
+                data-sb-field-path={fieldPath}
             >
-                <div className={classNames('w-full', 'flex', 'flex-col', { 'sm:flex-row sm:items-end': variant === 'variant-b' })}>
-                    <div
-                        className={classNames('grid', 'gap-y-4', 'sm:grid-cols-2', 'sm:gap-x-4', { 'sm:flex-grow': variant === 'variant-b' }, 'text-left')}
-                        data-sb-field-path=".fields"
+                <div className="grid sm:grid-cols-2 sm:gap-x-4" data-sb-field-path=".fields">
+                    <input type="hidden" name="form-name" value={elementId} />
+                    <input type="hidden" name="form-destination" value={destination} />
+                    {fields.map((field, index) => {
+                        const fieldType = field.type;
+                        if (!fieldType) {
+                            throw new Error(`form field does not have the 'type' property`);
+                        }
+                        const FormControl = getComponent(fieldType);
+                        if (!FormControl) {
+                            throw new Error(`no component matching the form field type: ${fieldType}`);
+                        }
+                        return <FormControl key={index} {...field} data-sb-field-path={`.${index}`} />;
+                    })}
+                </div>
+                <div className={classNames('mt-4', styles.submitLabel?.textAlign ? mapStyles({ textAlign: styles.submitLabel?.textAlign }) : null)}>
+                    <button
+                        type="submit"
+                        className="sb-component sb-component-block sb-component-button sb-component-button-primary"
+                        data-sb-field-path={`.${locale === 'pt' ? 'submitLabelFr' : 'submitLabel'}`}
                     >
-                        <input type="hidden" name="form-name" value={elementId} />
-                        <input type="hidden" name="form-destination" value={destination} />
-                        {fields.map((field, index) => {
-                            const fieldType = field.type;
-                            if (!fieldType) {
-                                throw new Error(`form field does not have the 'type' property`);
-                            }
-                            const FormControl = getComponent(fieldType);
-                            if (!FormControl) {
-                                throw new Error(`no component matching the form field type: ${fieldType}`);
-                            }
-                            return <FormControl key={index} {...field} data-sb-field-path={`.${index}`} />;
-                        })}
-                    </div>
-                    <div
-                        className={classNames(
-                            variant === 'variant-a' ? 'mt-8' : 'mt-4 sm:mt-0 sm:ml-4',
-                            styles.submitLabel?.textAlign ? mapStyles({ textAlign: styles.submitLabel?.textAlign }) : null
-                        )}
-                    >
-                        <button
-                            type="submit"
-                            className="sb-component sb-component-block sb-component-button sb-component-button-primary"
-                            data-sb-field-path=".submitLabel"
-                        >
-                            {submitLabel}
-                        </button>
-                        {this.state.submitted && <span className="ml-8">Thank you, your message was sent.</span>}
-                        {this.state.error && <span className="ml-8 text-info">Something went wrong, please try again.</span>}
-                    </div>
+                        {getSubmitLabel()}
+                    </button>
+                    {this.state.submitted && <p className="mt-8">{getConfirmation()}</p>}
+                    {this.state.error && <p className="mt-8 text-info">{getErrorMessage()}</p>}
                 </div>
             </form>
         );

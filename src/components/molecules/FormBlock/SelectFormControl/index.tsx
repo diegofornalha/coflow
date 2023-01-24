@@ -1,15 +1,19 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import { I18NContext } from '../../../../context/i18Ncontext';
 
 export default function SelectFormControl(props) {
-    const width = props.width || 'full';
-    const labelId = `${props.name}-label`;
-    const options = props.options || [];
+    const { name, label, labelFr, hideLabel, defaultValue, options = [], isRequired, width = 'full', 'data-sb-field-path': fieldPath } = props;
+    const labelId = `${name}-label`;
     const attr: any = {};
-    if (props.label) {
+    const { locale } = React.useContext(I18NContext);
+
+    const getLabel = () => locale === 'pt' && labelFr ? labelFr : label;
+
+    if (label) {
         attr['aria-labelledby'] = labelId;
     }
-    if (props.isRequired) {
+    if (isRequired) {
         attr.required = true;
     }
     return (
@@ -17,17 +21,17 @@ export default function SelectFormControl(props) {
             className={classNames('sb-form-control', {
                 'sm:col-span-2': width === 'full'
             })}
-            data-sb-field-path={props['data-sb-field-path']}
+            data-sb-field-path={fieldPath}
         >
-            {props.label && (
-                <label id={labelId} className={classNames('sb-label', { 'sr-only': props.hideLabel })} htmlFor={props.name} data-sb-field-path=".label .name#@for">
-                    {props.label}
+            {label && (
+                <label id={labelId} className={classNames('sb-label', { 'sr-only': hideLabel })} htmlFor={name} data-sb-field-path={`.${locale === 'pt' ? 'labelFr' : 'label' } .name#@for`}>
+                    {getLabel()}
                 </label>
             )}
-            <select id={props.name} className="sb-select" name={props.name} {...attr} data-sb-field-path=".name#@id .name#@name .options">
-                {props.defaultValue && (
+            <select id={name} className="sb-select" name={name} {...attr} data-sb-field-path=".name#@id .name#@name .options">
+                {defaultValue && (
                     <option value="" data-sb-field-path=".defaultValue">
-                        {props.defaultValue}
+                        {defaultValue}
                     </option>
                 )}
                 {options.length > 0 &&

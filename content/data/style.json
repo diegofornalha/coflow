@@ -1,9 +1,9 @@
 {
     "type": "ThemeStyle",
-    "fontHeadlines": "sans",
+    "fontHeadlines": "fontPrimary",
     "h1": {
         "size": "6xl",
-        "weight": "normal",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
@@ -24,44 +24,45 @@
     },
     "h4": {
         "size": "2xl",
-        "weight": "bold",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
     },
     "h5": {
         "size": "xl",
-        "weight": "bold",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
     },
     "h6": {
         "size": "lg",
-        "weight": "bold",
+        "weight": "medium",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"
     },
-    "fontBody": "sansAlt",
     "main": "#ffffff",
     "light": "#ffffff",
-    "onLight": "#000000",
-    "dark": "#008599",
+    "onLight": "#1d1d24",
+    "dark": "#1d1d24",
     "onDark": "#ffffff",
-    "primary": "#008599",
+    "primary": "#00ee8b",
     "onPrimary": "#ffffff",
-    "secondary": "#000000",
+    "secondary": "#0000f440",
     "onSecondary": "#ffffff",
     "complementary": "#ffffff",
-    "onComplementary": "#000000",
+    "onComplementary": "#000000bf",
+    "complementaryAlt": "#a000ff",
+    "onComplementaryAlt": "#ffffff",
     "buttonPrimary": {
         "weight": "normal",
         "case": "none",
         "letterSpacing": "normal",
         "borderRadius": "none",
-        "horizontalPadding": 30,
-        "verticalPadding": 12,
+        "horizontalPadding": 20,
+        "verticalPadding": 10,
         "shadow": "none"
     },
     "buttonSecondary": {
@@ -70,13 +71,14 @@
         "letterSpacing": "normal",
         "borderRadius": "none",
         "borderStyle": "solid",
-        "horizontalPadding": 30,
-        "verticalPadding": 12,
+        "horizontalPadding": 20,
+        "verticalPadding": 10,
         "shadow": "none"
     },
     "link": {
         "weight": "normal",
-        "case": "uppercase",
+        "case": "none",
         "letterSpacing": "normal"
-    }
+    },
+    "fontBody": "fontSecondary"
 }

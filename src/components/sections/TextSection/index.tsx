@@ -3,91 +3,111 @@ import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
-import { getDataAttrs } from '../../../utils/get-data-attrs';
+import Section from '../Section';
+import { I18NContext } from '../../../context/i18Ncontext';
 
 export default function TextSection(props) {
-    const cssId = props.elementId || null;
-    const colors = props.colors || 'colors-a';
-    const sectionStyles = props.styles?.self || {};
-    const sectionWidth = sectionStyles.width || 'wide';
-    const sectionHeight = sectionStyles.height || 'auto';
-    const sectionJustifyContent = sectionStyles.justifyContent || 'center';
+    const { type, elementId, colors, variant, title, titlePt, subtitle, subtitlePt, text, textPt, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitle = () => locale === 'pt' && titlePt ? titlePt : title;
+    const getSubtitle = () => locale === 'pt' && subtitlePt ? subtitlePt : subtitle;
+    const getText = () => locale === 'pt' && textPt ? textPt : text;
+
     return (
-        <div
-            id={cssId}
-            {...getDataAttrs(props)}
-            className={classNames(
-                'sb-component',
-                'sb-component-section',
-                'sb-component-text-section',
-                colors,
-                'flex',
-                'flex-col',
-                'justify-center',
-                mapMinHeightStyles(sectionHeight),
-                sectionStyles.margin,
-                sectionStyles.padding || 'py-12 px-4',
-                sectionStyles.borderColor,
-                sectionStyles.borderStyle ? mapStyles({ borderStyle: sectionStyles.borderStyle }) : 'border-none',
-                sectionStyles.borderRadius ? mapStyles({ borderRadius: sectionStyles.borderRadius }) : null
-            )}
-            style={{
-                borderWidth: sectionStyles.borderWidth ? `${sectionStyles.borderWidth}px` : null
-            }}
-        >
-            <div className={classNames('flex', 'w-full', mapStyles({ justifyContent: sectionJustifyContent }))}>
-                <div className={classNames('w-full', mapMaxWidthStyles(sectionWidth))}>{textBody(props)}</div>
-            </div>
-        </div>
+        <Section type={type} elementId={elementId} colors={colors} styles={styles.self} data-sb-field-path={fieldPath}>
+            <TextBodyVariants variant={variant} title={getTitle()} subtitle={getSubtitle()} text={getText()} styles={styles} />
+        </Section>
     );
 }
 
-function textBody(props) {
-    const styles = props.styles || {};
+function TextBodyVariants(props) {
+    const { variant = 'variant-a', ...rest } = props;
+    switch (variant) {
+        case 'variant-a':
+            return <TextBodyVariantA {...rest} />;
+        case 'variant-b':
+            return <TextBodyVariantB {...rest} />;
+        default:
+            return null;
+    }
+}
+
+function TextBodyVariantA(props) {
+    const { title, subtitle, text, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitleFieldPath = () => locale === 'pt' ? '.titlePt' : '.title';
+    const getSubtitleFieldPath = () => locale === 'pt' ? '.subtitlePt' : '.subtitle';
+    const getTextFieldPath = () => locale === 'pt' ? '.textPt' : '.text';
+
     return (
         <div>
-            {props.title && (
-                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
-                    {props.title}
+            {title && (
+                <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
+                    {title}
                 </h2>
             )}
-            {props.subtitle && (
+            {subtitle && (
                 <p
-                    className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-2': props.title })}
-                    data-sb-field-path=".subtitle"
+                    className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-2': title })}
+                    data-sb-field-path={getSubtitleFieldPath()}
                 >
-                    {props.subtitle}
+                    {subtitle}
                 </p>
             )}
-            {props.text && (
+            {text && (
                 <Markdown
                     options={{ forceBlock: true, forceWrapper: true }}
-                    className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, { 'mt-6': props.title || props.subtitle })}
-                    data-sb-field-path=".text"
+                    className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null, {
+                        'mt-6': title || subtitle
+                    })}
+                    data-sb-field-path={getTextFieldPath()}
                 >
-                    {props.text}
+                    {text}
                 </Markdown>
             )}
         </div>
     );
 }
 
-function mapMinHeightStyles(height) {
-    switch (height) {
-        case 'screen':
-            return 'min-h-screen';
-    }
-    return null;
-}
+function TextBodyVariantB(props) {
+    const { title, subtitle, text, styles = {} } = props;
+    const { locale } = React.useContext(I18NContext);
+    const getTitleFieldPath = () => locale === 'pt' ? '.titlePt' : '.title';
+    const getSubtitleFieldPath = () => locale === 'pt' ? '.subtitlePt' : '.subtitle';
+    const getTextFieldPath = () => locale === 'pt' ? '.textPt' : '.text';
 
-function mapMaxWidthStyles(width) {
-    switch (width) {
-        case 'narrow':
-            return 'max-w-screen-md';
-        case 'wide':
-            return 'max-w-screen-xl';
-        case 'full':
-            return 'max-w-full';
-    }
-    return null;
+    return (
+        <div className="flex flex-wrap">
+            {(title || subtitle) && (
+                <div className={classNames('w-full', { 'lg:w-1/3 lg:pr-3': text })}>
+                    {title && (
+                        <h2 className={classNames(styles.title ? mapStyles(styles.title) : null)} data-sb-field-path={getTitleFieldPath()}>
+                            {title}
+                        </h2>
+                    )}
+                    {subtitle && (
+                        <p
+                            className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, {
+                                'mt-2': title
+                            })}
+                            data-sb-field-path={getSubtitleFieldPath()}
+                        >
+                            {subtitle}
+                        </p>
+                    )}
+                </div>
+            )}
+            {text && (
+                <div className={classNames('w-full', { 'mt-12 lg:mt-0 lg:w-2/3 lg:pl-3': title || subtitle })}>
+                    <Markdown
+                        options={{ forceBlock: true, forceWrapper: true }}
+                        className={classNames('sb-markdown', 'sm:text-lg', styles.text ? mapStyles(styles.text) : null)}
+                        data-sb-field-path={getTextFieldPath()}
+                    >
+                        {text}
+                    </Markdown>
+                </div>
+            )}
+        </div>
+    );
 }
